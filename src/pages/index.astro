@@ -8,15 +8,44 @@ import Home from "./../components/Home.vue";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
+    <!-- <title>Astro</title> -->
   </head>
   <body>
-    <h1>Astro</h1>
+    <!-- <h1>Astro</h1> -->
     <Home />
   </body>
 </html>
 <style>
-  h1 {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+</style>
+<style>
+  * {
+    font-family: "Roboto Slab", serif;
+  }
+  /* h1 {
     background: red;
+  } */
+
+  body {
+    background: rgb(255, 236, 202);
+    background: -moz-linear-gradient(
+      90deg,
+      rgba(255, 236, 202, 1) 0%,
+      rgba(255, 240, 210, 1) 35%,
+      rgba(255, 211, 153, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+      90deg,
+      rgba(255, 236, 202, 1) 0%,
+      rgba(255, 240, 210, 1) 35%,
+      rgba(255, 211, 153, 1) 100%
+    );
+    background: linear-gradient(
+      90deg,
+      rgba(255, 236, 202, 1) 0%,
+      rgba(255, 240, 210, 1) 35%,
+      rgba(255, 211, 153, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffecca",endColorstr="#ffd399",GradientType=1);
   }
 </style>
