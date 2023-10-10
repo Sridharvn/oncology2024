@@ -1,6 +1,7 @@
 <template>
     <div class="logo-wrapper">
-        <img src="./../../public/ccrs-logo.15541866.png" alt="" class="logo">
+        <!-- ./../../public/ccrs-logo.15541866.png -->
+        <img src="/ccrs-logo.png" alt="" class="logo">
         <div class="under-logo">Cancer Control & Research Society</div>
     </div>
 </template>

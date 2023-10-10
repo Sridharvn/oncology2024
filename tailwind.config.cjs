@@ -9,7 +9,9 @@ module.exports = {
 			"white": "#fffffc",
 			"orange": "#ffaa7e",
 			"black": "#000000",
-			"lightOrange": "#ffa738"
+			"lightOrange": "#ffa738",
+			"cream": "#E8DBB0",
+			"red": "#ff1c00"
 		},
 		fontFamily: {
 			sans: ['Graphik', 'sans-serif'],

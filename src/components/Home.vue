@@ -3,7 +3,8 @@
         <!-- <div class="header">
 
         </div> -->
-        <oncology-card></oncology-card>
+        <Hero></Hero>
+        <OncologyDetails></OncologyDetails>
         <Banner color="primary">INTERNATIONAL CONFERENCE ON MULTIDISCIPLINARY MANAGEMENT OF COMMON CANCERS</Banner>
         <Banner color="secondary">Pre-conference teaching programs on Clinical Molecular Oncology & Hitech Precision
             Radiation Oncology on 7th
@@ -13,6 +14,7 @@
             9447073203/9562084100</Banner>
         <ListCard></ListCard>
         <!-- Content to load -->
+        <scientific-sessions></scientific-sessions>
         <Footer></Footer>
     </div>
 </template>
@@ -20,8 +22,10 @@
 .home {}
 </style>
 <script lang="ts" setup>
-import OncologyCard from './OncologyCard.vue';
+import OncologyDetails from './OncologyDetails.vue';
 import Banner from './Banner.vue';
 import ListCard from './ListCard.vue';
 import Footer from './Footer.vue';
+import Hero from './Hero.vue'
+import ScientificSessions from './ScientificSessions.vue';
 </script>

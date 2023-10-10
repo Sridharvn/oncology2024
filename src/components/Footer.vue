@@ -3,15 +3,16 @@
         <div class="footer-flex">
             <div class="footer-elements">Prof. Dr. C.S. Madhu MD, DNB<br>
                 Organising Chairman<br>
-                Mob:- 97 9387703803<br>
+                Mob:- 91 9387103803<br>
                 dr.csmadhu@gmail.com</div>
             <div class="footer-elements footer-paymentQR">
-                <img src="./../../public/PaymentQR.jpeg" alt="">
+                <!-- /../../public/PaymentQR.jpeg -->
+                <img src="/PaymentQR.jpeg" alt="" class="payment-QR-image">
                 <div class="scanToPay">Scan to Pay</div>
             </div>
             <div class="footer-elements">Dr. Unni S. Pillai MD DM<br>
                 Organising Secretary<br>
-                Mob:- 97 7598563767<br>
+                Mob:- 91 7598563161<br>
                 druspillai@gmail.com</div>
         </div>
         <Banner color="secondary">For accommodation, contact : Mr.Paul Vinu, Mob : <span> <a
@@ -25,10 +26,12 @@
 
 .footer-elements {
     @apply text-black font-bold text-3xl p-10;
+    @apply max-lg:text-2xl max-md:text-sm max-sm:text-sm;
 }
 
 .footer-flex {
-    @apply flex justify-between
+    @apply flex justify-between items-center;
+    @apply max-lg:flex-col max-lg:justify-center max-lg:items-center;
 }
 
 .scanToPay {
@@ -37,6 +40,10 @@
 
 .footer-paymentQR {
     @apply flex-col-reverse flex p-0;
+}
+
+.payment-QR-image {
+    @apply w-[w5px]
 }
 </style>
 <script lang="ts" setup>

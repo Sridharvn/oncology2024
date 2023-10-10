@@ -1,12 +1,17 @@
 <template>
     <div class="head">
 
-
-        <div class="heading-wrapper">
+        <CCRSLogo></CCRSLogo>
+        <!-- <div class="heading-wrapper">
             <div class="heading">ONCOLOGY <span class="heading-dim">2024</span><span class="heading-date">March 8, 9 & 10 @
                     Kochi</span></div>
+        </div> -->
+        <div class="details">
+            <div class="list"> Venue : HOTEL Le MERIDIEN KOCHI</div>
+            <div class="list"> Email :<span> <a href="mailto:oncology2024@gmail.com">oncology2024@gmail.com</a> </span>
+            </div>
+            <div class="list"> Web : <span> <a href="http://www.oncology2024.in">www.oncology2024.in</a> </span></div>
         </div>
-
     </div>
 </template>
 <style scoped>
@@ -15,11 +20,11 @@
 }
 
 .list {
-    @apply p-1 px-4 my-1 bg-gradient-to-r from-[#ffffff00] via-orange to-orange;
+    @apply p-1 px-4 my-1 bg-gradient-to-r from-[#ffffff00] via-orange to-[#ffffff00];
 }
 
 .head {
-    @apply flex justify-between items-center;
+    @apply flex justify-evenly items-center;
     @apply max-md:flex-col max-lg:flex-col max-xl:flex-col;
 }
 

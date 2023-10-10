@@ -12,7 +12,7 @@ import Home from "./../components/Home.vue";
   </head>
   <body>
     <!-- <h1>Astro</h1> -->
-    <Home client:load />
+    <Home client:load class="home" />
   </body>
 </html>
 <style>
@@ -21,12 +21,33 @@ import Home from "./../components/Home.vue";
 <style>
   * {
     font-family: "Roboto Slab", serif;
+    background-color: #00ff0010;
+    outline: 1px solid #00ff00 !important;
   }
   /* h1 {
     background: red;
   } */
-
+  .home {
+    @apply w-full;
+  }
   body {
+    background-image: linear-gradient(
+      to right,
+      #ffecca,
+      #ffedcb,
+      #ffeecd,
+      #ffeece,
+      #ffefd0,
+      #ffedcc,
+      #feebc7,
+      #fee9c3,
+      #fee4b8,
+      #fedeae,
+      #fed9a3,
+      #ffd399
+    );
+  }
+  /* body {
     background: rgb(255, 236, 202);
     background: -moz-linear-gradient(
       90deg,
@@ -47,5 +68,5 @@ import Home from "./../components/Home.vue";
       rgba(255, 211, 153, 1) 100%
     );
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffecca",endColorstr="#ffd399",GradientType=1);
-  }
+  } */
 </style>
