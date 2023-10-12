@@ -16,14 +16,15 @@
                 interesting case reports</div>
         </div>
         <div class="careerGuidance">
-            CAREER GUIDANCE SESSIONS FOR PG STUDENTS
+            <div class="careerHeading">CAREER GUIDANCE SESSIONS FOR PG STUDENTS</div>
+
             <div class="guidanceList" v-for="item in careerGuidance" :key="item">{{ item }}</div>
         </div>
     </div>
 </template>
 <style scoped>
 .announcement-heading {
-    @apply font-extrabold text-2xl;
+    @apply font-extrabold text-2xl my-4 underline text-text-primary;
 }
 
 .announcement-items-flex .announcement-item:not(:first-child) {
@@ -35,21 +36,25 @@
 }
 
 .announcement-item {
-    @apply font-bold text-black text-xl before:content-['\2689'];
+    @apply font-bold text-black text-xl before:content-['\2688'] my-1 before:mr-2;
 }
 
 .announcements {}
 
 .careerGuidance {
-    @apply font-extrabold text-black text-4xl;
+    @apply font-bold text-black text-2xl;
+}
+
+.careerHeading {
+    @apply underline my-4 text-text-primary;
 }
 
 .guidanceList {
-    @apply text-xl before:content-['\2689'];
+    @apply text-xl before:content-['\2688'] my-1 before:mr-2;
 }
 
 .scientificSection-heading {
-    @apply font-extrabold text-red text-3xl;
+    @apply font-extrabold text-red text-3xl my-4 underline;
 }
 
 .scientificSection {}
@@ -59,7 +64,7 @@
 }
 
 .sessionItem {
-    @apply font-bold text-black text-xl before:content-['\2689'];
+    @apply font-bold text-black text-xl before:content-['\2688'] my-1 before:mr-2;
 
 }
 

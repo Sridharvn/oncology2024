@@ -9,14 +9,15 @@
             </div>
             <!-- <div class="hero-details">INTERNATIONAL CONFERENCE ON MULTIDISCIPLINARY MANAGEMENT OF COMMON CANCERS</div> -->
             <div class="hero-img-wrapper">
-                <img src="/lemeridien.jpg" alt="" class="hero-img">
+                <img src="/lemeridien3.jpg" alt="" class="hero-img">
             </div>
         </div>
     </div>
 </template>
 <style  scoped>
 .hero-img {
-    @apply mix-blend-multiply shadow-2xl w-auto;
+    @apply shadow-2xl border border-white border-8 w-auto rounded rounded-2xl mx-3;
+    @apply max-sm:mx-0
 }
 
 .hero-section {

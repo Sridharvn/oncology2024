@@ -3,8 +3,9 @@
 
 
         <div class="heading-wrapper">
-            <div class="heading">ONCOLOGY <span class="heading-dim">2024</span><span class="heading-date">March 8, 9 & 10 @
-                    Kochi</span></div>
+            <div class="heading">ONCOLOGY <span class="heading-dim">2024</span><span class="heading-date">March 8, 9 and
+                    10<br>
+                    at Le Meridien, Kochi</span></div>
         </div>
 
     </div>
@@ -25,12 +26,13 @@
 
 .heading-wrapper {
     @apply bg-white border-text-secondary m-10 rounded-xl border border-8 hover:shadow-2xl transition-all ease-in-out duration-1000 w-min flex justify-center items-center;
+    @apply max-md:my-10 max-md:m-0;
     /* @apply bg-white border-text-secondary m-10 rounded-xl border border-8 hover:shadow-2xl transition-all ease-in-out duration-1000 -rotate-[2deg] w-min flex justify-center items-center; */
 }
 
 .heading {
-    @apply text-9xl text-text-primary text-center p-10 font-semibold flex flex-col;
-    @apply max-md:text-5xl max-lg:text-7xl;
+    @apply text-8xl text-text-primary text-center p-10 font-semibold flex flex-col;
+    @apply max-md:text-5xl max-lg:text-6xl;
 }
 
 .heading-dim {

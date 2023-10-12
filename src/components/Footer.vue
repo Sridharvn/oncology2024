@@ -3,20 +3,23 @@
         <div class="footer-flex">
             <div class="footer-elements">Prof. Dr. C.S. Madhu MD, DNB<br>
                 Organising Chairman<br>
-                Mob:- 91 9387103803<br>
-                dr.csmadhu@gmail.com</div>
+                <a href="Tel:9387103803">Mob:- 91 9387103803</a><br>
+                <a href="mailTo:dr.csmadhu@gmail.com">dr.csmadhu@gmail.com</a>
+            </div>
             <div class="footer-elements footer-paymentQR">
                 <!-- /../../public/PaymentQR.jpeg -->
-                <img src="/PaymentQR.jpeg" alt="" class="payment-QR-image">
-                <div class="scanToPay">Scan to Pay</div>
+                <a href="https://feebook.southindianbank.com/FeeBookUser/org?id=670">
+                    <img src="/PaymentQR.jpeg" alt="" class="payment-QR-image"></a>
+                <div class="scanToPay">Click the image or Scan to Pay</div>
             </div>
             <div class="footer-elements">Dr. Unni S. Pillai MD DM<br>
                 Organising Secretary<br>
-                Mob:- 91 7598563161<br>
-                druspillai@gmail.com</div>
+                <a href="Tel:7598563161">Mob:- 91 7598563161</a><br>
+                <a href="mailTo:druspillai@gmail.com">druspillai@gmail.com</a>
+            </div>
         </div>
         <Banner color="secondary">For accommodation, contact : Mr.Paul Vinu, Mob : <span> <a
-                    href="Tel:8086530177">8086530177</a> </span>,
+                    href="Tel:8086530177">8086530177</a> </span>,<br>
             Email : <span> <a href="mailTo: namaste@moondays.in">namaste@moondays.in</a> </span></Banner>
         <Banner color="primary"></Banner>
     </div>
@@ -25,7 +28,7 @@
 .footer {}
 
 .footer-elements {
-    @apply text-black font-bold text-3xl p-10;
+    @apply text-black font-bold text-3xl p-10 border border-4 border-text-primary rounded-xl mx-4 my-6;
     @apply max-lg:text-2xl max-md:text-sm max-sm:text-sm;
 }
 
@@ -39,7 +42,8 @@
 }
 
 .footer-paymentQR {
-    @apply flex-col-reverse flex p-0;
+    @apply flex-col-reverse flex p-0 mb-5 border-0;
+    @apply max-lg:mb-0;
 }
 
 .payment-QR-image {

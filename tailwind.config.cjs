@@ -6,11 +6,13 @@ module.exports = {
 		colors: {
 			'text-primary': '#403092',
 			'text-secondary': "#a491c3",
+			'text-secondary2': "#ffffff75",
+			'border-blue': "#c9c1f7",
 			"white": "#fffffc",
 			"orange": "#ffaa7e",
 			"black": "#000000",
 			"lightOrange": "#ffa738",
-			"cream": "#E8DBB0",
+			"cream": "#C0B5F7",
 			"red": "#ff1c00"
 		},
 		fontFamily: {

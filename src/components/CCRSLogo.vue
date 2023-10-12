@@ -1,6 +1,6 @@
 <template>
     <div class="logo-wrapper">
-        <!-- ./../../public/ccrs-logo.15541866.png -->
+        <!--  -->
         <img src="/ccrs-logo.png" alt="" class="logo">
         <div class="under-logo">Cancer Control & Research Society</div>
     </div>
@@ -16,6 +16,7 @@
 
 
 .logo {
-    @apply h-36 bg-white rounded-full p-3;
+    @apply h-36;
+    /* @apply h-36 bg-white rounded-full p-3; */
 }
 </style>

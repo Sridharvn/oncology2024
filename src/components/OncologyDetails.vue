@@ -24,8 +24,8 @@
 }
 
 .head {
-    @apply flex justify-evenly items-center;
-    @apply max-md:flex-col max-lg:flex-col max-xl:flex-col;
+    @apply flex justify-evenly items-center my-6;
+    @apply max-md:flex-col-reverse max-lg:flex-col-reverse max-xl:flex-col;
 }
 
 .heading-wrapper {

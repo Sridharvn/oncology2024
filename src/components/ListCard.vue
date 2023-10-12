@@ -1,5 +1,5 @@
 <template >
-    <div>
+    <div class="listCard">
         <div class="list-wrapper">
             <button class="list-item-element" :class="activeElement == 0 ? 'list-item-active' : ''"
                 v-on:click="changeActiveElement(0)">International Faculty</button>
@@ -21,6 +21,10 @@
     /* @apply border; */
 }
 
+.listCard {
+    @apply border border-4 mx-4 border-text-primary rounded-2xl my-4;
+}
+
 .content-item {
     @apply grid grid-cols-3 gap-5 justify-items-center p-10;
     @apply max-sm:grid-cols-2;
@@ -32,21 +36,23 @@
 }
 
 .list-wrapper {
-    @apply flex justify-around text-2xl;
+    @apply flex justify-around text-2xl my-4;
 }
 
 .list-item-element {
-    @apply text-text-secondary transition-all duration-200;
+    @apply text-text-secondary2 transition-all duration-200 bg-text-primary px-4 rounded;
+    @apply max-md:text-base mx-2;
+
 }
 
 .list-item-active {
-    @apply text-text-primary border-b-8;
+    @apply text-white border-b-8 border-border-blue;
 }
 </style>
 <script setup>
 import { ref, onMounted } from 'vue';
 const InternationalFaculty = ["Prof.M V Pillai (USA)", "Dr.Najeeb Mohideen(USA)", "Prof.Saby George(USA)", "Dr.Aiithkumar(UK)", "Prof.Hari Parameswaran(USA)", "Dr.Kurian Joseph(Canada)", "Prof.Ben George(USA)", "Dr.Prantik Das(UK)", "Dr.Vimoi Nair(Canada)", "Dr.Sabareesh Radhakrishnan(USA)", "Dr.Yara Abdou(USA)", "Dr.Aiith Venniyur(Oman)"]
-const NationalFaculty = ["Prof.Suresh H Advani", " Dr.V.P.Gangadharan", "Dr.K.V.Somaraian", "Prof.Raju Titus Chacko", "Prof.Ashish Singh", " Prof.Vivek Koushal", "Prof.Gopal Maheshwari", " Prof.Sudeep Gupta", "Dr.Viiayanand Reddy", "Dr.Kannan", "Prof.Kumar Prabhash", "Prof.Purvish Parikh", "Prof.K Pavithran", "Prof.Hari Menon", "Prof.D.Raikumar", " Dr.J P Agarwal", "Dr.Sidharth Ghosh Laskar", "Dr.Sarbani Ghosh Laskar", "Dr.Jayaprakash Madhavan", "Dr.Chithrathara", " Dr.D K Viiayakumar", "Dr.Chandra Mohan", "Dr.Surii Salih", "Dr.Sudhindra", "Dr.Rahul Krishnatri", "Dr.O V Sudheer", "Dr.Ginil Kumar", "Dr.Sevanthi Li Maye", "Dr.Silambarasan", "Dr.P Rema"]
+const NationalFaculty = ["Prof.Suresh H Advani", "Dr.V.P.Gangadharan", "Dr.K.V.Somaraian", "Prof.Raju Titus Chacko", "Prof.Ashish Singh", "Prof.Vivek Koushal", "Prof.Gopal Maheshwari", "Prof.Sudeep Gupta", "Dr.Viiayanand Reddy", "Dr.Kannan", "Prof.Kumar Prabhash", "Prof.Purvish Parikh", "Prof.K Pavithran", "Prof.Hari Menon", "Prof.D.Raikumar", "Dr.J P Agarwal", "Dr.Sidharth Ghosh Laskar", "Dr.Sarbani Ghosh Laskar", "Dr.Jayaprakash Madhavan", "Dr.Chithrathara", "Dr.D K Viiayakumar", "Dr.Chandra Mohan", "Dr.Surii Salih", "Dr.Sudhindra", "Dr.Rahul Krishnatri", "Dr.O V Sudheer", "Dr.Ginil Kumar", "Dr.Sevanthi Li Maye", "Dr.Silambarasan", "Dr.P Rema"]
 
 
 let activeElement = ref(0);
