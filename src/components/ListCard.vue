@@ -51,8 +51,8 @@
 </style>
 <script setup>
 import { ref, onMounted } from 'vue';
-const InternationalFaculty = ["Prof.M V Pillai (USA)", "Dr.Najeeb Mohideen(USA)", "Prof.Saby George(USA)", "Dr.Aiithkumar(UK)", "Prof.Hari Parameswaran(USA)", "Dr.Kurian Joseph(Canada)", "Prof.Ben George(USA)", "Dr.Prantik Das(UK)", "Dr.Vimoi Nair(Canada)", "Dr.Sabareesh Radhakrishnan(USA)", "Dr.Yara Abdou(USA)", "Dr.Aiith Venniyur(Oman)"]
-const NationalFaculty = ["Prof.Suresh H Advani", "Dr.V.P.Gangadharan", "Dr.K.V.Somaraian", "Prof.Raju Titus Chacko", "Prof.Ashish Singh", "Prof.Vivek Koushal", "Prof.Gopal Maheshwari", "Prof.Sudeep Gupta", "Dr.Viiayanand Reddy", "Dr.Kannan", "Prof.Kumar Prabhash", "Prof.Purvish Parikh", "Prof.K Pavithran", "Prof.Hari Menon", "Prof.D.Raikumar", "Dr.J P Agarwal", "Dr.Sidharth Ghosh Laskar", "Dr.Sarbani Ghosh Laskar", "Dr.Jayaprakash Madhavan", "Dr.Chithrathara", "Dr.D K Viiayakumar", "Dr.Chandra Mohan", "Dr.Surii Salih", "Dr.Sudhindra", "Dr.Rahul Krishnatri", "Dr.O V Sudheer", "Dr.Ginil Kumar", "Dr.Sevanthi Li Maye", "Dr.Silambarasan", "Dr.P Rema"]
+const InternationalFaculty = ["Prof.M V Pillai (USA)", "Dr.Najeeb Mohideen(USA)", "Prof.Saby George(USA)", "Dr.Ajithkumar(UK)", "Prof.Hari Parameswaran(USA)", "Dr.Kurian Joseph(Canada)", "Prof.Ben George(USA)", "Dr.Prantik Das(UK)", "Dr.Vimoji Nair(Canada)", "Dr.Sabareesh Radhakrishnan(USA)", "Dr.Yara Abdou(USA)", "Dr.Ajith Venniyur(Oman)"]
+const NationalFaculty = ["Prof.Suresh H Advani", "Dr.V.P.Gangadharan", "Dr.K.V.Somarajan", "Prof.Raju Titus Chacko", "Prof.Ashish Singh", "Prof.Vivek Koushal", "Prof.Gopal Maheshwari", "Prof.Sudeep Gupta", "Dr.Vijayanand Reddy", "Dr.Kannan", "Prof.Kumar Prabhash", "Prof.Purvish Parikh", "Prof.K Pavithran", "Prof.Hari Menon", "Prof.D.Rajkumar", "Dr.J P Agarwal", "Dr.Sidharth Ghosh Laskar", "Dr.Sarbani Ghosh Laskar", "Dr.Jayaprakash Madhavan", "Dr.Chithrathara", "Dr.D K Vijayakumar", "Dr.Chandra Mohan", "Dr.Surij Salih", "Dr.Sudhindra", "Dr.Rahul Krishnatri", "Dr.O V Sudheer", "Dr.Ginil Kumar", "Dr.Sevanthi Li Maye", "Dr.Silambarasan", "Dr.P Rema"]
 
 
 let activeElement = ref(0);
