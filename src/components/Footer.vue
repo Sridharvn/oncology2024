@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="footer-flex">
-            <div class="footer-elements QRheading">Prof. Dr. C.S. Madhu MD, DNB<br>
+            <div class="footer-elements">Prof. Dr. C.S. Madhu MD, DNB<br>
                 Organising Chairman<br>
                 <a href="Tel:9387103803">Mob:- 91 9387103803</a><br>
                 <a href="mailTo:dr.csmadhu@gmail.com">dr.csmadhu@gmail.com</a>
