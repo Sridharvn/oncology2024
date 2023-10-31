@@ -69,47 +69,47 @@ const InternationalFaculty = [
     image: "/InternationalFaculty/DR.M V Pillai.jpg",
   },
   {
-    name: "Dr.Najeeb Mohideen(USA)",
+    name: "Dr.Najeeb Mohideen (USA)",
     image: "/InternationalFaculty/DR.Najeeb Mohideen.jpg",
   },
   {
-    name: "Prof.Saby George(USA)",
+    name: "Prof.Saby George (USA)",
     image: "/InternationalFaculty/DR.Saby George.jpg",
   },
   {
-    name: "Dr.Ajithkumar(UK)",
+    name: "Dr.Ajithkumar (UK)",
     image: "/InternationalFaculty/DR.T Ajith Kumar.jpg",
   },
   {
-    name: "Prof.Hari Parameswaran(USA)",
+    name: "Prof.Hari Parameswaran (USA)",
     image: "/InternationalFaculty/Prof. Hari Parameswaran.jpg",
   },
   {
-    name: "Dr.Kurian Joseph(Canada)",
+    name: "Dr.Kurian Joseph (Canada)",
     image: "/InternationalFaculty/DR.Kurian joseph.jpg",
   },
   {
-    name: "Prof.Ben George(USA)",
+    name: "Prof.Ben George (USA)",
     image: "/InternationalFaculty/DR.Ben George.jpg",
   },
   {
-    name: "Dr.Prantik Das(UK)",
+    name: "Dr.Prantik Das (UK)",
     image: "/InternationalFaculty/DR.Prantik Das.jpg",
   },
   {
-    name: "Dr.Vimoji Nair(Canada)",
+    name: "Dr.Vimoj Nair (Canada)",
     image: "/InternationalFaculty/DR.Vimoj Nair.jpg",
   },
   {
-    name: "Dr.Sabareesh Radhakrishnan(USA)",
+    name: "Dr.Sabareesh Radhakrishnan (USA)",
     image: "/InternationalFaculty/DR.Sabarinath Venniyil Radhakrishnan.jpg",
   },
   {
-    name: "Dr.Yara Abdou(USA)",
+    name: "Dr.Yara Abdou (USA)",
     image: "/InternationalFaculty/DR.Yara Abdou.jpg",
   },
   {
-    name: "Dr.Ajith Venniyur(Oman)",
+    name: "Dr.Ajith Venniyur (Oman)",
     image: "/InternationalFaculty/DR.Ajit joseph venniyoor.jpg",
   },
 ];
