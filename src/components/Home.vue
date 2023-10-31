@@ -24,7 +24,7 @@
 <script lang="ts" setup>
 import OncologyDetails from './OncologyDetails.vue';
 import Banner from './Banner.vue';
-import ListCard from './ListCard.vue';
+import ListCard from './ListCard-without-tabs.vue';
 import Footer from './Footer.vue';
 import Hero from './Hero.vue'
 import ScientificSessions from './ScientificSessions.vue';
