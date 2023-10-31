@@ -5,6 +5,8 @@
                 v-on:click="changeActiveElement(0)">International Faculty</button>
             <button class="list-item-element" :class="activeElement == 1 ? 'list-item-active' : ''"
                 v-on:click="changeActiveElement(1)">National Faculty</button>
+            <button class="list-item-element" :class="activeElement == 2 ? 'list-item-active' : ''"
+                v-on:click="changeActiveElement(2)">Steering Committee</button>
         </div>
         <div class=" content">
             <div class="content-item" v-if="activeElement == 0">
@@ -12,6 +14,9 @@
             </div>
             <div class="content-item" v-if="activeElement == 1">
                 <div class="content-list" v-for="Faculty in NationalFaculty" :key="Faculty">{{ Faculty }}</div>
+            </div>
+            <div class="content-item" v-if="activeElement == 2">
+                <div class="content-list" v-for="Faculty in SteeringCommittee" :key="Faculty">{{ Faculty }}</div>
             </div>
         </div>
     </div>
@@ -53,6 +58,7 @@
 import { ref, onMounted } from 'vue';
 const InternationalFaculty = ["Prof.M V Pillai (USA)", "Dr.Najeeb Mohideen(USA)", "Prof.Saby George(USA)", "Dr.Ajithkumar(UK)", "Prof.Hari Parameswaran(USA)", "Dr.Kurian Joseph(Canada)", "Prof.Ben George(USA)", "Dr.Prantik Das(UK)", "Dr.Vimoji Nair(Canada)", "Dr.Sabareesh Radhakrishnan(USA)", "Dr.Yara Abdou(USA)", "Dr.Ajith Venniyur(Oman)"]
 const NationalFaculty = ["Prof.Suresh H Advani", "Dr.V.P.Gangadharan", "Dr.K.V.Somarajan", "Prof.Raju Titus Chacko", "Prof.Ashish Singh", "Prof.Vivek Koushal", "Prof.Gopal Maheshwari", "Prof.Sudeep Gupta", "Dr.Vijayanand Reddy", "Dr.Kannan", "Prof.Kumar Prabhash", "Prof.Purvish Parikh", "Prof.K Pavithran", "Prof.Hari Menon", "Prof.D.Rajkumar", "Dr.J P Agarwal", "Dr.Sidharth Ghosh Laskar", "Dr.Sarbani Ghosh Laskar", "Dr.Jayaprakash Madhavan", "Dr.Chithrathara", "Dr.D K Vijayakumar", "Dr.Chandra Mohan", "Dr.Surij Salih", "Dr.Sudhindra", "Dr.Rahul Krishnatri", "Dr.O V Sudheer", "Dr.Ginil Kumar", "Dr.Sevanthi Li Maye", "Dr.Silambarasan", "Dr.P Rema"]
+const SteeringCommittee = ["DR.Naveen P Kumar", "DR.Malu Rafi DNB", "DR.Asha Arjun MD, DNB", "DR.Susan MD, DNB", "DR.John Joseph MD", "DR.Roshini MD", "DR.Sanu Dev MD, DM", "DR.Vishnu Reghu MD", "DR.Cyrus MD", "DR.Nidhi MD DM"]
 
 
 let activeElement = ref(0);
@@ -63,7 +69,7 @@ let activeElement = ref(0);
 // }
 function changeActiveElement(index) {
     activeElement.value = index;
-    console.log(activeElement);
+    // console.log(activeElement);
 
 }
 
