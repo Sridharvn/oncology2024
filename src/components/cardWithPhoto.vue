@@ -7,7 +7,7 @@
     </div>
 
     <div class="px-4 py-4">
-      <h3 class="font-semibold text-gray-900 mb-2 truncate text-xl text-center">
+      <h3 class="font-semibold text-gray-900 mb-2 text-xl text-center">
         {{ name }}
       </h3>
 
