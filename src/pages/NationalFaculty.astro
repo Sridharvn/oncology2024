@@ -1,5 +1,7 @@
 ---
-import Home from "./../components/Home.vue";
+import HeaderNav from "../components/HeaderNav.vue";
+import Footer from "../components/Footer.vue";
+import NationalFacultyList from "./../components/Faculty/NationalFacultyList.vue";
 ---
 
 <html lang="en">
@@ -12,7 +14,9 @@ import Home from "./../components/Home.vue";
   </head>
   <body>
     <!-- <h1>Astro</h1> -->
-    <Home client:load class="home" />
+    <HeaderNav />
+    <NationalFacultyList client:load class="home" />
+    <Footer />
   </body>
 </html>
 <style>
@@ -28,7 +32,7 @@ import Home from "./../components/Home.vue";
     background: red;
   } */
   .home {
-    @apply w-full;
+    /* @apply w-full; */
   }
   body {
     background-image: linear-gradient(

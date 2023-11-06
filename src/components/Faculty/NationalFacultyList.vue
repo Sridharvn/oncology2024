@@ -1,7 +1,7 @@
 <template>
   <div class="listCard">
     <div class="listSectionWrapper">
-      <div class="listSectionHeading">International Faculty</div>
+      <!-- <div class="listSectionHeading">International Faculty</div>
       <div class="listSectionElements listSectionImageElements">
         <cardWithPhoto
           :name="item.name"
@@ -10,7 +10,7 @@
           :key="item"
         >
         </cardWithPhoto>
-      </div>
+      </div> -->
     </div>
     <div class="listSectionWrapper">
       <div class="listSectionHeading">National Faculty</div>
@@ -24,7 +24,7 @@
         </div>
       </div>
     </div>
-    <div class="listSectionWrapper">
+    <!-- <div class="listSectionWrapper">
       <div class="listSectionHeading">Steering Committee</div>
       <div class="listSectionElements">
         <div
@@ -35,7 +35,7 @@
           {{ item }}
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <style scoped>
@@ -70,7 +70,7 @@
 }
 </style>
 <script setup>
-import cardWithPhoto from "./cardWithPhoto.vue";
+import cardWithPhoto from "../cardWithPhoto.vue";
 // const InternationalFaculty = ["Prof.M V Pillai (USA)", "Dr.Najeeb Mohideen(USA)", "Prof.Saby George(USA)", "Dr.Ajithkumar(UK)", "Prof.Hari Parameswaran(USA)", "Dr.Kurian Joseph(Canada)", "Prof.Ben George(USA)", "Dr.Prantik Das(UK)", "Dr.Vimoji Nair(Canada)", "Dr.Sabareesh Radhakrishnan(USA)", "Dr.Yara Abdou(USA)", "Dr.Ajith Venniyur(Oman)"]
 const InternationalFaculty = [
   {
