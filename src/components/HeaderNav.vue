@@ -5,7 +5,7 @@
     </div>
     <div class="nav-links">
       <div class="nav-items">
-        <a href="/">Home</a>
+        <a href="/">Home Page</a>
       </div>
       <div class="nav-items">
         <a href="/InternationalFaculty">International Faculty</a>
@@ -32,7 +32,10 @@
 }
 
 .nav-links {
-  @apply flex gap-5 text-white font-bold;
-  @apply max-sm:flex-col;
+  @apply flex gap-5 text-white font-bold justify-center items-center text-center;
+  @apply max-sm:flex max-sm:text-xs max-sm:gap-2 max-sm:justify-center;
+}
+.nav-items {
+  @apply bg-text-primary2 rounded-md p-2;
 }
 </style>
