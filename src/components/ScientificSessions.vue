@@ -141,7 +141,7 @@ const announcements = [
       "QUIZ PROGRAM FOR PG RESIDENTS IN MEDICAL ONCOLOGY, RADIATION ONCOLOGY & SURGICAL SPECIALITIES",
     items: [
       "Dedicated One hour meet the expert sessions and discussions on Medical Oncology with Dr.M.V.Pillai, Dr.Sabi George, Dr.Yara Abdou.",
-      "On Hemato Oncology with Dr.Hari Parameswaran, Dr.Sabareesh Radhakrishnan, Dr.T.Aiithkumar and Dr.Hari Menon.",
+      "On Hemato Oncology with Dr.Hari Parameswaran, Dr.Sabarinath Radhakrishnan, Dr.T.Aiithkumar and Dr.Hari Menon.",
       "One hour meet the expert sessions on Radiation Oncology with Dr.Najeeb Mohideen, Dr.Kurian Joseph, Dr.Prantik Das and Dr.T Aiithkumar.",
     ],
   },

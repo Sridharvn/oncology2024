@@ -71,7 +71,7 @@
 </style>
 <script setup>
 import cardWithPhoto from "../cardWithPhoto.vue";
-// const InternationalFaculty = ["Prof.M V Pillai (USA)", "Dr.Najeeb Mohideen(USA)", "Prof.Saby George(USA)", "Dr.Ajithkumar(UK)", "Prof.Hari Parameswaran(USA)", "Dr.Kurian Joseph(Canada)", "Prof.Ben George(USA)", "Dr.Prantik Das(UK)", "Dr.Vimoji Nair(Canada)", "Dr.Sabareesh Radhakrishnan(USA)", "Dr.Yara Abdou(USA)", "Dr.Ajith Venniyur(Oman)"]
+// const InternationalFaculty = ["Prof.M V Pillai (USA)", "Dr.Najeeb Mohideen(USA)", "Prof.Saby George(USA)", "Dr.Ajithkumar(UK)", "Prof.Hari Parameswaran(USA)", "Dr.Kurian Joseph(Canada)", "Prof.Ben George(USA)", "Dr.Prantik Das(UK)", "Dr.Vimoji Nair(Canada)", "Dr.Sabarinath Radhakrishnan(USA)", "Dr.Yara Abdou(USA)", "Dr.Ajith Venniyur(Oman)"]
 const InternationalFaculty = [
   {
     name: "Prof.M V Pillai (USA)",
@@ -110,7 +110,7 @@ const InternationalFaculty = [
     image: "/InternationalFaculty/DR.Vimoj Nair.jpg",
   },
   {
-    name: "Dr.Sabareesh Radhakrishnan (USA)",
+    name: "Dr.Sabarinath Radhakrishnan (USA)",
     image: "/InternationalFaculty/DR.Sabarinath Venniyil Radhakrishnan.jpg",
   },
   {

@@ -99,7 +99,7 @@ const InternationalFaculty = [
   "Prof.Ben George(USA)",
   "Dr.Prantik Das(UK)",
   "Dr.Vimoji Nair(Canada)",
-  "Dr.Sabareesh Radhakrishnan(USA)",
+  "Dr.Sabarinath Radhakrishnan(USA)",
   "Dr.Yara Abdou(USA)",
   "Dr.Ajith Venniyur(Oman)",
 ];
