@@ -77,9 +77,13 @@
     </Banner>
     <Banner color="six">
       <div>
-        <a href="http://www.cybernetdevelopers.com" class="cyDevLink"
-          >Web Design by<span
-            ><img src="/public/logotoptransparent.png" alt="" class="cyDevLogo"
+        <a
+          href="http://www.cybernetdevelopers.com"
+          target="_blank"
+          class="cyDevLink"
+          ><div class="cyDevText">Web Design by</div>
+          <span
+            ><img src="/logotoptransparent.png" alt="" class="cyDevLogo"
           /></span>
         </a></div
     ></Banner>
@@ -125,16 +129,19 @@
 .linkToEmail {
   @apply text-text-primary;
 }
-.cyDevLogo {
-  height: 30px;
-  width: 30px;
-  opacity: 0.7;
-}
 
 .cyDevLink {
   font-family: "Roboto Condensed", sans-serif;
-  @apply flex gap-2;
-  color: grey;
+  @apply flex gap-2 text-base;
+  color: white;
+}
+.cyDevText {
+  opacity: 0.7;
+}
+.cyDevLogo {
+  height: 20px;
+  width: 20px;
+  opacity: 0.9;
 }
 </style>
 <script lang="ts" setup>

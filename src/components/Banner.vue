@@ -11,7 +11,7 @@
 
 .banner-secondary {
   @apply flex justify-center items-center bg-lightOrange px-10 py-3 text-black text-3xl text-center flex-wrap text-justify;
-  @apply max-lg:text-2xl max-md:text-xl max-sm:text-base max-sm:font-bold;
+  @apply max-lg:text-2xl max-md:text-xl max-sm:text-base;
 }
 
 .banner-tertiary {
