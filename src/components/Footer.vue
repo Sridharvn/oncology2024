@@ -33,7 +33,7 @@
       <div class="footer-elements">
         Prof. Dr. C.S. Madhu MD, DNB<br />
         Organising Chairman<br />
-        <a href="Tel:9387103803">Mob:- 91 9387103803</a><br />
+        <a href="Tel:9387103803">Mob: 91 9387103803</a><br />
         <a href="mailTo:dr.csmadhu@gmail.com">dr.csmadhu@gmail.com</a>
       </div>
       <!-- <div class="footer-elements footer-paymentQR">
@@ -45,7 +45,7 @@
       <div class="footer-elements">
         Dr. Unni S. Pillai MD DM<br />
         Organising Secretary<br />
-        <a href="Tel:7598563161">Mob:- 91 7598563161</a><br />
+        <a href="Tel:7598563161">Mob: 91 7598563161</a><br />
         <a href="mailTo:druspillai@gmail.com">druspillai@gmail.com</a>
       </div>
     </div>
@@ -54,15 +54,35 @@
       presentations in the general proffered paper session and selected best of
       them will be given gold, silver and bronze medals</Banner
     >
-    <Banner color="secondary"
-      >For accommodation, contact : Mr.Paul Vinu, Mob :
-      <span> <a href="Tel:8086530177">8086530177</a> </span>,
+    <Banner color="secondary">
+      For accommodation, contact:&nbsp;
+      <span>
+        Mr.Paul Vinu, Mob:
+        <span>
+          <a href="Tel:8086530177" class="linkToContact linkToPhone"
+            >8086530177</a
+          > </span
+        >,</span
+      >
       <!-- <br> -->
-      Email : &nbsp;<span>
-        <a href="mailTo: namaste@moondays.in">namaste@moondays.in</a>
-      </span>
+      <span
+        >&nbsp;Email: &nbsp;<span>
+          <a
+            href="mailTo: namaste@moondays.in"
+            class="linkToContact linkToEmail"
+            >namaste@moondays.in</a
+          >
+        </span></span
+      >
     </Banner>
-    <Banner color="primary"></Banner>
+    <Banner color="six">
+      <div>
+        <a href="http://www.cybernetdevelopers.com" class="cyDevLink"
+          >Web Design by<span
+            ><img src="/public/logotoptransparent.png" alt="" class="cyDevLogo"
+          /></span>
+        </a></div
+    ></Banner>
   </div>
 </template>
 <style scoped>
@@ -95,6 +115,26 @@
 
 .QRheading {
   @apply font-bold text-2xl text-red mb-2 underline;
+}
+.linkToContact {
+  @apply text-red;
+}
+.linkToPhone {
+  @apply text-green;
+}
+.linkToEmail {
+  @apply text-text-primary;
+}
+.cyDevLogo {
+  height: 30px;
+  width: 30px;
+  opacity: 0.7;
+}
+
+.cyDevLink {
+  font-family: "Roboto Condensed", sans-serif;
+  @apply flex gap-2;
+  color: grey;
 }
 </style>
 <script lang="ts" setup>

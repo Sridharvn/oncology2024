@@ -28,7 +28,7 @@
 
 .nav-logo {
   @apply w-28 bg-white rounded rounded-full p-3;
-  @apply max-sm:mb-10;
+  @apply max-sm:mb-4;
 }
 
 .nav-links {

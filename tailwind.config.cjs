@@ -6,6 +6,7 @@ module.exports = {
 		colors: {
 			'text-primary': '#403092',
 			'text-primary2': '#6a6296',
+			'text-primary3': '#22194d',
 			'text-secondary': "#a491c3",
 			'text-secondary2': "#ffffff75",
 			'border-blue': "#c9c1f7",
@@ -15,7 +16,8 @@ module.exports = {
 			"lightOrange": "#ffa738",
 			"cream": "#C0B5F7",
 			"red": "#ff1c00",
-			"darkOrange": "#fa6c25"
+			"darkOrange": "#fa6c25",
+			"green": "#064000"
 
 		},
 		fontFamily: {
