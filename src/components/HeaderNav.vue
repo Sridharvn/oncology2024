@@ -23,14 +23,21 @@
           >Download Brochure</a
         >
       </div>
+      <div class="nav-items">
+        <a
+          href=" http://www.oncology2024.in/scientific-programme.pdf"
+          target="_blank"
+          >Scientific Programmes</a
+        >
+      </div>
     </div>
   </div>
 </template>
 <style scoped>
 .nav {
-  @apply flex justify-between items-center px-4 py-3 bg-text-primary;
+  @apply flex justify-between items-center px-4 py-3 bg-text-primary gap-3;
   /* @apply flex justify-between items-center px-4 py-3 bg-text-primary bg-gradient-to-b from-cream to-[#E5E8B000]; */
-  @apply max-sm:justify-center max-sm:flex-col max-sm:justify-center max-sm:items-center max-sm:text-center;
+  @apply max-sm:justify-center max-md:flex-col max-sm:justify-center max-sm:items-center max-sm:text-center;
 }
 
 .nav-logo {
