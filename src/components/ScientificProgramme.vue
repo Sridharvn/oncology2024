@@ -233,100 +233,113 @@ const sessionsDay2 = [
 ];
 const sessionsDay3 = [
   {
-    topic: "",
-    speaker: "",
+    topic: "Treatment of early lung cancer",
+    speaker: "Dr. Ashish Singh MD ",
   },
   {
-    topic: "",
-    speaker: "",
+    topic: "T1G3 TCC: Is there a case for early cystectomy. Panel discussion",
+    speaker: "Dr. Kim Jacob Mammen MS MCL FRCS ",
   },
   {
-    topic: "",
-    speaker: "",
+    topic:
+      "Targeted therapy and immunotherapy - have they replaced Chemotherapy and Radiotherapy in Non Small Cell Lung cancer",
+    speaker: "Dr. Govind Babu MD, DM",
   },
   {
-    topic: "",
-    speaker: "",
+    topic:
+      "Proton therapy for reducing mucosa] toxicity if head & neck radiotherapy",
+    speaker: "Dr Sapna Nangia MD, DMB ",
   },
   {
-    topic: "",
-    speaker: "",
+    topic:
+      "Tumor Treating Fields Therapy of glioblastoms - Current advances and future",
+    speaker: "Dr. Vimoj Nair MD, FRCP",
   },
   {
-    topic: "",
-    speaker: "",
+    topic:
+      "Identifying High risk factors to guide management in HR+ HER2- Early Breast Cancer",
+    speaker: "Dr. Yara Abdou MD",
   },
   {
-    topic: "",
-    speaker: "",
+    topic: "Role of comprehensive genomic profiling in breast cancer",
+    speaker: "Dr. Krupa Shankar MD, DM",
   },
   {
-    topic: "",
-    speaker: "",
+    topic:
+      "EGFR Mutation Positive lung cancer - do we have similar outcome in Indian patients",
+    speaker: "Prof. Dr. Kumar Prabhash MD,DM",
   },
   {
-    topic: "",
-    speaker: "",
+    topic:
+      "Giving patients the liberty to live comfortably with HER2+ve breast cancer",
+    speaker: "Dr.Abdul Shahid MD,DM ",
   },
   {
-    topic: "",
-    speaker: "",
+    topic:
+      "Genetic Counseling, testing and risk management for hereditary cancers in India",
+    speaker: "Dr. Rajiv Sarin MD,FRCR",
   },
   {
-    topic: "",
-    speaker: "",
+    topic: "Organ Preservation in Ca Penis",
+    speaker: "Prof Dr. Vedang Murthy MD",
   },
   {
-    topic: "",
-    speaker: "",
+    topic: "Cancer microbiome - Immune axis",
+    speaker: "Dr. Deepthi Madhu MD ",
   },
   {
-    topic: "",
-    speaker: "",
+    topic:
+      "Redefining Treatment Outcomes with Adjuvant Immunotherapy in Renal Cell Carcinoma",
+    speaker: "Dr. Unni S Pillai MD,DM ",
   },
   {
-    topic: "",
-    speaker: "",
+    topic:
+      "Changing Paradigm in the management of Head & Neck and Esophageal Cancer",
+    speaker: "Dr. Arun Chandrasekharan DM,MD ",
   },
   {
-    topic: "",
-    speaker: "",
+    topic:
+      "Antibiotic Resistance Breakers in Immunocompromised Patients: Evidence & Experience through Real Time Data ",
+    speaker: "Dr. Anup R Warrier DNB ",
   },
   {
-    topic: "",
-    speaker: "",
+    topic:
+      "Lighting new hope in ES- SCLC with 5 year reported survival outcomes ",
+    speaker: "Dr. Narayanankutty Warrier MD, DM",
   },
   {
-    topic: "",
-    speaker: "",
+    topic: "Role of immunotherapy in 1L unresectable HCC ",
+    speaker: "Dr. Arun Warner MD, MRCP, DM, FRCP ",
   },
   {
-    topic: "",
-    speaker: "",
+    topic:
+      "Changing treatment paradigm: A new dawn in diffuse large B-cell lymphoma treatment",
+    speaker: "Dr. Hari Menon MD, DM ",
   },
   {
-    topic: "",
-    speaker: "",
+    topic:
+      "Newer combined modality (radio-immuno-chemo) therapy for cervical cancer ",
+    speaker: "Dr.Umesh Mahantshetty MD, DNB ",
   },
-  {
-    topic: "",
-    speaker: "",
-  },
-  {
-    topic: "",
-    speaker: "",
-  },
-  {
-    topic: "",
-    speaker: "",
-  },
-  {
-    topic: "",
-    speaker: "",
-  },
-  {
-    topic: "",
-    speaker: "",
-  },
+  //   {
+  //     topic: "",
+  //     speaker: "",
+  //   },
+  //   {
+  //     topic: "",
+  //     speaker: "",
+  //   },
+  //   {
+  //     topic: "",
+  //     speaker: "",
+  //   },
+  //   {
+  //     topic: "",
+  //     speaker: "",
+  //   },
+  //   {
+  //     topic: "",
+  //     speaker: "",
+  //   },
 ];
 </script>
