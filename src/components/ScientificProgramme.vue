@@ -142,6 +142,97 @@ const sessionsDay2 = [
     speaker: "Dr. Ajit Venniyoor MD, DNB, DM ",
   },
   {
+    topic: "Current approaches to locally advanced rectal Cancer ",
+    speaker: "Dr. Kurien Joseph FRCR, FRCP(C)",
+  },
+  {
+    topic:
+      "Have we perfected the treatment of carcinoma cervix in the last four decades",
+    speaker: "Prof.Shyam Shrivastava MD, DNB ",
+  },
+  {
+    topic:
+      "Advanced radiotherapy Techniques such as TMLI, Bridging Radiotherapy and role of Radiotherapy for Transplant Patients ",
+    speaker: "Dr. TV Ajithkumar MD, FRCR, MRCP",
+  },
+  {
+    topic: "Targeting prostate cancer precisely in the CRPC setting ",
+    speaker: "Dr. Saby George MD, FACP",
+  },
+  {
+    topic:
+      "Ultra hypo-fractionated Radiotherapy for breast cancer: Opportunities & challenges in the Indian context. ",
+    speaker: "Dr. Rajiv Sarin MD, FRCR",
+  },
+  {
+    topic: "Whats positive about Triple Negative Breast cancer? ",
+    speaker: "Dr. Yara Abdou MD",
+  },
+  {
+    topic: "Overview of treatment options for advanced kidney cancer patients ",
+    speaker: "Dr. Saby George MD, FACP ",
+  },
+  {
+    topic:
+      "Myeloma —continuing role for transplant in the era of new therapies.",
+    speaker: " Dr. Hari Parameswaran MD, FACP ",
+  },
+  {
+    topic: "Multidisciplinary Panel on Locally advanced Prostate cancer",
+    speaker: " Dr. Najeeb Mohideen MD, FRCR",
+  },
+  {
+    topic: "Precision Oncology in pancreatic Carcinoma ",
+    speaker: "Prof. Ben George MD,FACP",
+  },
+  {
+    topic:
+      "Near patient CART cell therapy—can we make it accessible across the world ? ",
+    speaker: "Dr. Hari Parameswaran MD, FACP",
+  },
+  {
+    topic: "Tailored adjuvant therapy for endochemical cancer ",
+    speaker: "Dr.Umesh Mahantshetty MD, DNB ",
+  },
+  {
+    topic: "Systemic therapy in head and neck cancer- Indian context. ",
+    speaker: "Dr. Kumar Prabhash MD, DM",
+  },
+  {
+    topic: "SBRT for localised Ca Prostate: Is it ready to take off",
+    speaker: " Dr. Vijay Anand Reddy MD, DNB",
+  },
+  {
+    topic: "Management of advanced bladder cancer ",
+    speaker: "Dr. Prantik Das MRCP, FRCR ",
+  },
+  {
+    topic: "The HER2 low revolution in breast cancer- Panel discussion ",
+    speaker: "Dr. Shaheenah Dawood FACP, FRCP",
+  },
+  {
+    topic: "Perioperative Radiotherapy for Pancreatic Cancer ",
+    speaker: "Dr. TV Ajithkumar MD, FRCR, MRCP",
+  },
+  {
+    topic: "Precision Oncology of colonic carcinomas ",
+    speaker: "Prof. Ben George MD, FACP",
+  },
+  {
+    topic: "Recent advances in Robotic Oncosurgcry ",
+    speaker: " Dr. Somasekhar MS,Mch, FRCS ",
+  },
+  {
+    topic: "Use of methylation profile in Meningoma•",
+    speaker: "Dr. Ziad Thotathil MD, DNB, FRANZCR, FRCR ",
+  },
+  //   {
+  //     topic: "",
+  //     speaker: "",
+  //   },
+];
+const sessionsDay3 = [
+  {
     topic: "",
     speaker: "",
   },
@@ -149,8 +240,82 @@ const sessionsDay2 = [
     topic: "",
     speaker: "",
   },
-];
-const sessionsDay3 = [
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
   {
     topic: "",
     speaker: "",
