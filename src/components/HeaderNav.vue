@@ -24,11 +24,12 @@
         >
       </div>
       <div class="nav-items">
-        <a
+        <a href="/ScientificProgramme">Scientific Programmes</a>
+        <!-- <a
           href=" http://www.oncology2024.in/scientific-programme.pdf"
           target="_blank"
           >Scientific Programmes</a
-        >
+        > -->
       </div>
     </div>
   </div>
