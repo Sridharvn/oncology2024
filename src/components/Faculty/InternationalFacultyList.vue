@@ -121,6 +121,10 @@ const InternationalFaculty = [
     name: "Dr.Ajith Venniyur (Oman)",
     image: "/InternationalFaculty/DR.Ajit joseph venniyoor.jpg",
   },
+  {
+    name: "Dr.Shaheenah Dawood (Dubai)",
+    image: "/InternationalFaculty/Dr.ShaheenahDawood.png",
+  },
 ];
 const NationalFaculty = [
   "Prof. DR N R Datta",
