@@ -13,7 +13,7 @@
           <td class="mainTimeTableColumn" v-if="index == 0">
             {{ item.title }}
           </td>
-          <td class="mainTimeTableColumn" v-if="index == 0">
+          <td class="mainTimeTableColumn" v-if="index == 0" colspan="2">
             <tr class="mainTimeTableRowInColumnFirst mainTimeTableHall">
               {{
                 item.hall
@@ -59,17 +59,13 @@
             </tr>
           </td>
         </tr>
-        <tr class="mainTimeTableHall mainTimeTableRow">
-          <td></td>
-          <td></td>
-          <td>Inauguration of Conference</td>
-        </tr>
-        <tr class="mainTimeTableHall mainTimeTableRow">
-          <td></td>
-          <td></td>
-          <td>Valedictory Function</td>
-        </tr>
       </table>
+      <div class="mainTimeTableHall mainTimeTableRow" v-if="index == 1">
+        <div>Inauguration of Conference</div>
+      </div>
+      <div class="mainTimeTableHall mainTimeTableRow" v-if="index == 3">
+        <div>Valedictory Function</div>
+      </div>
     </div>
     <div class="dayWrapper">
       <h1 class="heading">Scientific Sessions - Day I - 08.03.2024(Hall A)</h1>
@@ -139,14 +135,21 @@
   </div>
 </template>
 <style scoped>
+tr {
+  /* @apply min-w-full; */
+}
 .mainTimeTable {
   @apply p-4 m-3;
 }
 .mainTimeTableColumn {
   @apply border-text-primary border-2;
 }
+.mainTimeTableColumn:not(:first-child) {
+  @apply w-1/3;
+}
+
 .mainTimeTableRow {
-  @apply border-2 border-text-primary;
+  @apply border-2 border-text-primary text-center;
 }
 .mainTimeTableHall {
   @apply text-text-primary text-2xl font-bold;
@@ -160,7 +163,7 @@
 .mainTimeTableWrapper {
 }
 .mainTimeTableDate {
-  @apply text-4xl text-white bg-pink aspect-square border-2 border-pink;
+  @apply text-4xl text-white bg-pink aspect-square border-2 border-pink w-4;
 }
 </style>
 <style scoped>
