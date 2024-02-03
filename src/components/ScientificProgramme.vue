@@ -1,5 +1,76 @@
 <template>
   <div class="wrapper">
+    <div class="mainTimeTableWrapper">
+      <table class="mainTimeTable">
+        <tr
+          class="mainTimeTableRow"
+          v-for="(item, index) in dailyEventsTable"
+          :key="index"
+        >
+          <td class="mainTimeTableColumn mainTimeTableDate" v-if="index == 0">
+            {{ item.date }}
+          </td>
+          <td class="mainTimeTableColumn" v-if="index == 0">
+            {{ item.title }}
+          </td>
+          <td class="mainTimeTableColumn" v-if="index == 0">
+            <tr class="mainTimeTableRowInColumnFirst mainTimeTableHall">
+              {{
+                item.hall
+              }}
+            </tr>
+            <tr class="mainTimeTableRowInColumnFirst">
+              {{
+                item.topic
+              }}
+            </tr>
+          </td>
+          <td class="mainTimeTableColumn mainTimeTableDate" v-if="index != 0">
+            {{ item.date }}
+          </td>
+          <td class="mainTimeTableColumn" v-if="index != 0">
+            <tr class="mainTimeTableRowInColumnRest mainTimeTableHall">
+              Hall B
+            </tr>
+            <tr class="mainTimeTableRowInColumnRest">
+              {{
+                item.hallB
+              }}
+            </tr>
+          </td>
+          <td class="mainTimeTableColumn" v-if="index != 0">
+            <tr class="mainTimeTableRowInColumnRest mainTimeTableHall">
+              Oman Hall
+            </tr>
+            <tr class="mainTimeTableRowInColumnRest">
+              {{
+                item.omanHall
+              }}
+            </tr>
+          </td>
+          <td class="mainTimeTableColumn" v-if="index != 0">
+            <tr class="mainTimeTableRowInColumnRest mainTimeTableHall">
+              Hall C
+            </tr>
+            <tr class="mainTimeTableRowInColumnRest">
+              {{
+                item.hallC
+              }}
+            </tr>
+          </td>
+        </tr>
+        <tr class="mainTimeTableHall mainTimeTableRow">
+          <td></td>
+          <td></td>
+          <td>Inauguration of Conference</td>
+        </tr>
+        <tr class="mainTimeTableHall mainTimeTableRow">
+          <td></td>
+          <td></td>
+          <td>Valedictory Function</td>
+        </tr>
+      </table>
+    </div>
     <div class="dayWrapper">
       <h1 class="heading">Scientific Sessions - Day I - 08.03.2024(Hall A)</h1>
       <h6 class="underHeading">
@@ -68,6 +139,31 @@
   </div>
 </template>
 <style scoped>
+.mainTimeTable {
+  @apply p-4 m-3;
+}
+.mainTimeTableColumn {
+  @apply border-text-primary border-2;
+}
+.mainTimeTableRow {
+  @apply border-2 border-text-primary;
+}
+.mainTimeTableHall {
+  @apply text-text-primary text-2xl font-bold;
+}
+.mainTimeTableRowInColumnFirst:first-child,
+.mainTimeTableRowInColumnRest:first-child {
+  @apply border-b-2 w-full border-text-primary;
+}
+.mainTimeTableRowInColumnRest {
+}
+.mainTimeTableWrapper {
+}
+.mainTimeTableDate {
+  @apply text-4xl text-white bg-pink aspect-square border-2 border-pink;
+}
+</style>
+<style scoped>
 * {
   /* border: 1px solid red; */
 }
@@ -122,7 +218,7 @@ const dailyEventsTable = [
     title: "PRE CONFERENCE SCIENTIFIC SESSION 8.00 am to 6.00 pm",
     hall: "Nayanar Hall, LeMeridian, Kochi",
     topic:
-      "COURSE ON CROSS SECTIONAL ANATOMY FOR TARGET VOLUME DELINEATION AND TREATMENT PLANNING, BRACHYTHERAPY OF kOebi COMMON CANCERS by Dr. K. C. PATRO MD, DNB, MBA ",
+      "COURSE ON CROSS SECTIONAL ANATOMY FOR TARGET VOLUME DELINEATION AND TREATMENT PLANNING, BRACHYTHERAPY OF  COMMON CANCERS by Dr. K. C. PATRO MD, DNB, MBA ",
   },
   {
     date: "08 March",

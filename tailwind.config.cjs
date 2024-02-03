@@ -17,7 +17,9 @@ module.exports = {
 			"cream": "#C0B5F7",
 			"red": "#ff1c00",
 			"darkOrange": "#fa6c25",
-			"green": "#064000"
+			"green": "#064000",
+			"pink": "#c6569f",
+			"bgPink": "#fcf0f5",
 
 		},
 		fontFamily: {
