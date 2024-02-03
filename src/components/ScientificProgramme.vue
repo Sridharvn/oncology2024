@@ -47,6 +47,18 @@
                 item.omanHall
               }}
             </tr>
+            <!-- <tr
+              class="mainTimeTableHall mainTimeTableRow text-center"
+              v-if="index == 1"
+            >
+              <td>Inauguration of Conference</td>
+            </tr>
+            <tr
+              class="mainTimeTableHall mainTimeTableRow text-center"
+              v-if="index == 3"
+            >
+              <td>Valedictory Function</td>
+            </tr> -->
           </td>
           <td class="mainTimeTableColumn" v-if="index != 0">
             <tr class="mainTimeTableRowInColumnRest mainTimeTableHall">
@@ -60,12 +72,6 @@
           </td>
         </tr>
       </table>
-      <div class="mainTimeTableHall mainTimeTableRow" v-if="index == 1">
-        <div>Inauguration of Conference</div>
-      </div>
-      <div class="mainTimeTableHall mainTimeTableRow" v-if="index == 3">
-        <div>Valedictory Function</div>
-      </div>
     </div>
     <div class="dayWrapper">
       <h1 class="heading">Scientific Sessions - Day I - 08.03.2024(Hall A)</h1>
@@ -139,26 +145,27 @@ tr {
   /* @apply min-w-full; */
 }
 .mainTimeTable {
-  @apply p-4 m-3;
+  @apply p-4 m-3 mx-7;
 }
 .mainTimeTableColumn {
-  @apply border-text-primary border-2;
+  @apply border-text-primary border-2 h-auto p-0 m-0;
 }
 .mainTimeTableColumn:not(:first-child) {
   @apply w-1/3;
 }
 
 .mainTimeTableRow {
-  @apply border-2 border-text-primary text-center;
+  @apply border-t-2 border-text-primary text-center;
 }
 .mainTimeTableHall {
-  @apply text-text-primary text-2xl font-bold;
+  @apply text-text-primary text-2xl font-bold h-1/2;
 }
 .mainTimeTableRowInColumnFirst:first-child,
 .mainTimeTableRowInColumnRest:first-child {
   @apply border-b-2 w-full border-text-primary;
 }
 .mainTimeTableRowInColumnRest {
+  @apply w-full flex flex-col justify-center items-center;
 }
 .mainTimeTableWrapper {
 }
@@ -235,7 +242,7 @@ const dailyEventsTable = [
       "LEARN FROM THE EXPERTS RADIATION ONCOLOGY AND E-CONTOURING INTERACTIVE SESSION (Sponsored by Varian) ",
     omanHall: "SCIENTIFIC SESSION",
     hallC:
-      "LEARN FROM THE EXPERTS MEDICAL ONCOLOGY ON CART CELL THERAPY, IMMUNOTHERAPY & TARGETTED THERAPY (Breakfast Session) FREE PAPER SESSION ",
+      "LEARN FROM THE EXPERTS MEDICAL ONCOLOGY ON CART CELL THERAPY, IMMUNOTHERAPY & TARGETED THERAPY (Breakfast Session) FREE PAPER SESSION ",
   },
   {
     date: "10 March",
