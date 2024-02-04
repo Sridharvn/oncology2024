@@ -571,6 +571,216 @@ const sessionsDay3 = [
 ];
 const precisionOncology8thMarch = [
   {
+    topic: "8:00 am - Welcome Address and Context Setting",
+    speaker: "",
+  },
+  {
+    topic: "Session 1 - Basics of Genomic Profilin",
+    speaker: "",
+  },
+  {
+    topic: "Fundamentals of Sequencing Technologies",
+    speaker: "Dr Anurag Mehta",
+  },
+  {
+    topic: 'NGS panels : "Choosing Wisely" Data Analysis and Interpretation',
+    speaker: " Dr Durga Prasan",
+  },
+  {
+    topic: "Navigating the components of a Genomic Profiling Report ",
+    speaker: "Dr Vamsi Krishna",
+  },
+  {
+    topic: "Interpretation and Implementation of VAF",
+    speaker: "Dr Anurag Mehta",
+  },
+  {
+    topic:
+      "Role of Bioinformatics in Analysis of Comprehensive Genomic Data - A clinicians perspective ",
+    speaker: " Dr Arunkumar",
+  },
+  {
+    topic:
+      "Clinical Implications and Decision Making “The Use of Online Knowledge Data Bases",
+    speaker: "Dr Prashant Ariyanur",
+  },
+  {
+    topic:
+      "Practical challenges and Pitfalls of genomic profiling and interpretation: ",
+    speaker: "Dr Senthil Rajappa",
+  },
+  {
+    topic: "",
+    speaker: "Panel Discussion & Q & A",
+  },
+  {
+    topic:
+      "Session 2 - An overview of Precision Oncology in Various Tumor Types",
+    speaker: "",
+  },
+  {
+    topic: "Lung Cancer - The Torch Bearer for Precision Oncology",
+    speaker: "Chairperson - Prof. K Pavithran",
+  },
+  {
+    topic: "Making Sense of NGS Report for Practicing Clinicians ",
+    speaker: "Dr Sewanti Limaye",
+  },
+  {
+    topic:
+      "Matching the right drug for the right patient at the right time - considerations beyond common mutations",
+    speaker: " Dr. T M Anoop",
+  },
+  {
+    topic: "Molecular Tumor Board (Case Based)",
+    speaker: `
+Chairperson - Dr Sewanti Limaye;
+Moderator -
+Dr Ashok Komaranchath
+Panelist - Dr Ajit Nambiar,
+Dr Wesley Jose,
+Dr Nikhil K Haridas
+Dr Sanjoe M Varghese`,
+  },
+  {
+    topic: "LUNCH BREAK",
+    speaker: "",
+  },
+  {
+    topic: "Unraveling the Molecular Mysteries of Gastrointestinal Cancers",
+    speaker: `Chairperson - Dr. Jayaprakash Madhavan
+Dr.T Ajayakumar`,
+  },
+  {
+    topic: "Navigating MSI highway in GI cancers",
+    speaker: "Dr Vamsi Krishna",
+  },
+  {
+    topic: "Beyond the Visible - ctDNA in early CRC. Is it primetime worthy?",
+    speaker: "Dr Govind Babu",
+  },
+  {
+    topic:
+      "GI Cancers on the Move: Actionable Targets in an Evolving Landscape",
+    speaker: "Dr Ben George",
+  },
+  {
+    topic: `Molecular Tumor Board (Case Based)
+Gangadharan, Dr. Purvish Parikh`,
+    speaker: `Chairperson - Dr KV
+Moderator -
+Dr Rajkumar Rangaswamy
+Panelist - Dr Praseeda I,
+Dr. Sivanandan, Dr Arun Sankar
+Dr. Varun Rajan`,
+  },
+  {
+    topic: "How Do I use Precision Oncology in Gynaecological Malignancies",
+    speaker: `Chairperson -
+Prof. Francis V James,
+Dr. Aswinkumar`,
+  },
+  {
+    topic:
+      "Theory to Practice - HRD Testing Methods, Scoring and integration in Practice",
+    speaker: "Dr Senthil Rajappa",
+  },
+  {
+    topic:
+      "Emerging biomarkers in Ovarian Cancer (all subtypes) and their clinical utility",
+    speaker: "Dr Sewanti Limaye",
+  },
+  {
+    topic:
+      "Precision Medicine At the Helm - Transforming Treatment Paradigms in Endometrial cancer",
+    speaker: "Dr BK Smruthi",
+  },
+  {
+    topic: "Molecular Tumor Board (Case Based)",
+    speaker: `Chairperson - Dr Chithrathara,
+Dr Jose Tom
+Moderator - Dr Krishna Prasad
+Panelist - Dr Joy Augustin,
+Dr Antony Thottian
+Dr. John Joseph,
+Dr. Susan Mathews
+www.oncology2024`,
+  },
+  {
+    topic: `Sarcomas - Can Molecular Markers Harness Individualized Therapy for Sarcomas?
+Molecular Tumor Board (Case Based)`,
+    speaker: `Chairpersons - Dr K Sajeevan,
+Dr. Sunu Cyriac
+Dr Prashant Parameswaran
+Moderator : Dr. Sugeeth M T
+Panelist -Dr Ziad Thottathil,
+Dr Sreelesh K P
+Dr Sanu Dev Sadananthan,
+Dr. Sameer Salahudeen
+Dr Sujai Srinivas, Dr Rajeev Sarin`,
+  },
+  {
+    topic: `Central Nervous System (CNS) - The barrier tuff to enter
+Are we able to break the barrier with personalized cancer treatment in CNS tumors ?
+Molecular Tumor Board (Case Based)`,
+    speaker: "Dr Sujai Srinivas",
+  },
+  {
+    topic:
+      "Session - Liquid biopsy Symposium, The 3 Ps of Liquid Biopsy Power, Promise and Pitfalls",
+    speaker: "Dr T Raja",
+  },
+  {
+    topic: "Diving into Liquid Biopsy: Methods, Pros, and Cons Explored",
+    speaker: "Dr Anurag Mehta",
+  },
+  {
+    topic: "Shifting paradigm of Liquid Biopsy in GI cancers",
+    speaker: "Dr Govind Babu",
+  },
+  {
+    topic: "Molecular Tumor Board (Case Based)",
+    speaker: `Chairperson - Dr Sreedharan,
+Dr Sajeed, Dr. Hareesh
+Moderator - Dr Amit Verma;
+Panelist - Dr Sunu Cyriac;
+Dr Suresh Kumar;
+Dr Varun Rajan,
+Dr Binitha Thomas,
+Dr Flowerlit Thomas`,
+  },
+  {
+    topic: `Breast Cancer -
+Role of CGP in Breast cancer
+Molecular Tumor Board (Case Based)`,
+    speaker: `Chairperson - Dr D K Vijayakumar
+Speaker - Dr Kiruba Shankar S,
+Moderator - Dr Rona Joseph
+Panelist - Dr Arvind S Anand,
+Dr Mural! T V, Dr. Sandeep,
+Dr. Arun`,
+  },
+  {
+    topic: "Interesting Cases (CUP/GU/CNS)",
+    speaker: "TBD",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
+    topic: "",
+    speaker: "",
+  },
+  {
     topic: "",
     speaker: "",
   },
