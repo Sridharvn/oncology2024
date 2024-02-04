@@ -73,71 +73,15 @@
         </tr>
       </table>
     </div>
-    <div class="dayWrapper">
-      <h1 class="heading">Scientific Sessions - Day I - 08.03.2024(Hall A)</h1>
-      <h6 class="underHeading">
-        There maybe minor changes in the Scientific Programme.
-      </h6>
-      <table class="listWrapper">
-        <tr class="listHeading">
-          <th class="listHeadingItem">Topic</th>
-          <th class="listHeadingItem">Speaker</th>
-        </tr>
-
-        <tr
-          class="listItems"
-          v-for="(item, index) in sessionsDay1"
-          :key="index"
-        >
-          <td class="listItemsItem">{{ item.topic }}</td>
-          <td class="listItemsItem">{{ item.speaker }}</td>
-        </tr>
-      </table>
-    </div>
-    <div class="dayWrapper">
-      <h1 class="heading">Scientific Sessions - Day II - 09.03.2024(Hall A)</h1>
-      <h6 class="underHeading">
-        There maybe minor changes in the Scientific Programme.
-      </h6>
-      <table class="listWrapper">
-        <tr class="listHeading">
-          <th class="listHeadingItem">Topic</th>
-          <th class="listHeadingItem">Speaker</th>
-        </tr>
-
-        <tr
-          class="listItems"
-          v-for="(item, index) in sessionsDay2"
-          :key="index"
-        >
-          <td class="listItemsItem">{{ item.topic }}</td>
-          <td class="listItemsItem">{{ item.speaker }}</td>
-        </tr>
-      </table>
-    </div>
-    <div class="dayWrapper">
-      <h1 class="heading">
-        Scientific Sessions - Day III - 10.03.2024(Hall A)
-      </h1>
-      <h6 class="underHeading">
-        There maybe minor changes in the Scientific Programme.
-      </h6>
-      <table class="listWrapper">
-        <tr class="listHeading">
-          <th class="listHeadingItem">Topic</th>
-          <th class="listHeadingItem">Speaker</th>
-        </tr>
-
-        <tr
-          class="listItems"
-          v-for="(item, index) in sessionsDay3"
-          :key="index"
-        >
-          <td class="listItemsItem">{{ item.topic }}</td>
-          <td class="listItemsItem">{{ item.speaker }}</td>
-        </tr>
-      </table>
-    </div>
+    <topicSpeakerListVue :sessionsList="sessionsDay1" timeProvided="false"
+      >Scientific Sessions - Day I - 08.03.2024(Hall A)</topicSpeakerListVue
+    >
+    <topicSpeakerListVue :sessionsList="sessionsDay2" timeProvided="false"
+      >Scientific Sessions - Day II - 09.03.2024(Hall A)</topicSpeakerListVue
+    >
+    <topicSpeakerListVue :sessionsList="sessionsDay3" timeProvided="false"
+      >Scientific Sessions - Day III - 10.03.2024(Hall A)</topicSpeakerListVue
+    >
   </div>
 </template>
 <style scoped>
@@ -227,6 +171,8 @@
 }
 </style>
 <script setup>
+import topicSpeakerListVue from "./repeatingComponents/topicSpeakerList.vue";
+
 const dailyEventsTable = [
   {
     date: "07 March ",
@@ -764,25 +710,99 @@ Dr. Arun`,
     topic: "Interesting Cases (CUP/GU/CNS)",
     speaker: "TBD",
   },
+  // {
+  //   topic: "",
+  //   speaker: "",
+  // },
+  // {
+  //   topic: "",
+  //   speaker: "",
+  // },
+  // {
+  //   topic: "",
+  //   speaker: "",
+  // },
+  // {
+  //   topic: "",
+  //   speaker: "",
+  // },
+  // {
+  //   topic: "",
+  //   speaker: "",
+  // },
+];
+
+const LearnFromExperts = [
   {
+    time: "09.00 - 09.30",
+    topic: " Rectal cancer",
+    speaker: " Dr. Najeeb Mohideen",
+  },
+  {
+    time: "09.30 -10.00",
+    topic: "Craniospinal radiotherapy",
+    speaker: " Dr. T V Ajithkumar",
+  },
+  {
+    time: "10.00-10.30",
+    topic: "Prostate Cancer",
+    speaker: "Dr. Prantik Das",
+  },
+  {
+    time: "10.30-11.00 ",
+    topic: "Paediatric Solid Tumors (Non CNS)",
+    speaker: " Dr. TV Ajith Kumar",
+  },
+  {
+    time: "11.00-11.15 Tea Break",
     topic: "",
     speaker: "",
   },
   {
+    time: "11.15-11.45 ",
+    topic: "Locally Advanced Pancratic cancer and Pancreas SBRT ",
+    speaker: "Dr. Vimoj Nair",
+  },
+  {
+    time: "11.45-12.15 SBRT of Lung cancer Dr. Ziad Thotathil  ",
     topic: "",
     speaker: "",
   },
   {
-    topic: "",
+    time: "12.15-12.45",
+    topic: " Regional Nodal radiation in Breast cancer",
+    speaker: "Dr. Kurian Joseph",
+  },
+  {
+    time: "12.45-01.15",
+    topic: "Where does MR Linac make a difference",
+    speaker: "Dr. Prantik Das",
+  },
+  {
+    time: "01.15-02.00",
+    topic: "Lunch Break",
     speaker: "",
   },
   {
-    topic: "",
-    speaker: "",
+    time: "02.00 - 04.00",
+    topic: `E contouring cum precision radiation oncology
+(Sponsored by Varian)`,
+    speaker: `Dr Najeeb Mohideen MD, FRCR, FASTRO, FACR
+Dr T V Ajithkumar MD, FRCR
+Dr Ziad Thottathil MD, DNB, FRANZCR, FRCR
+Dr Vimoj Nair MD, FRCP
+Dr. Prantik Das MRCP, FRCR
+Dr. Kurian Joseph FRCR, FRCP`,
   },
-  {
-    topic: "",
-    speaker: "",
-  },
+  // {
+  //   time: "",
+  //   topic: "",
+  //   speaker: "",
+  // },
+  // {
+  //   time: "",
+  //   topic: "",
+  //   speaker: "",
+  // },
 ];
 </script>
