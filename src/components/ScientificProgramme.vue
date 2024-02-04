@@ -94,19 +94,23 @@
   </div>
 </template>
 <style scoped>
+* {
+  /* @apply border-red border; */
+}
 @media (max-width: 1275px) {
   .mainTimeTable tr {
     @apply h-40;
   }
 }
 .mainTimeTable tr {
-  @apply xl:h-40 2xl:h-20 max-lg:h-52 max-md:h-60;
+  @apply xl:h-40 2xl:h-20 max-lg:h-52 max-md:h-60 max-sm:h-72;
 }
 .mainTimeTable {
-  @apply p-4 m-3 mx-7;
+  @apply lg:p-4 lg:m-3 lg:mx-7 my-1;
 }
 .mainTimeTableColumn {
   @apply border-text-primary border-2 h-auto p-0 m-0 h-full;
+  @apply max-sm:text-xs;
 }
 .mainTimeTableColumn:not(:first-child) {
   @apply w-1/3;
@@ -117,18 +121,23 @@
 }
 .mainTimeTableHall {
   @apply text-white text-2xl h-1/2 bg-text-primary flex items-center justify-center;
+  @apply max-sm:text-sm h-10;
+  height: 50px !important;
 }
+
 .mainTimeTableRowInColumnFirst:first-child,
 .mainTimeTableRowInColumnRest:first-child {
   @apply border-b-2 w-full border-text-primary;
 }
 .mainTimeTableRowInColumnRest {
   @apply w-full flex flex-col justify-center items-center;
+  @apply max-sm:text-sm;
 }
 .mainTimeTableWrapper {
 }
 .mainTimeTableDate {
   @apply text-4xl text-white bg-pink aspect-square border-2 border-pink w-4;
+  @apply max-sm:text-sm;
 }
 </style>
 <style scoped>
