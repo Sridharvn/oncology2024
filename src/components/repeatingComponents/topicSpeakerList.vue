@@ -17,8 +17,8 @@
         <td class="listItemsItem" v-if="timeProvided == 'true'">
           {{ item.time }}
         </td>
-        <td class="listItemsItem">{{ item.topic }}</td>
-        <td class="listItemsItem">{{ item.speaker }}</td>
+        <td class="listItemsItem" v-html="item.topic"></td>
+        <td class="listItemsItem" v-html="item.speaker"></td>
       </tr>
     </table>
   </div>
@@ -72,5 +72,21 @@
 }
 </style>
 <script setup>
+import { onMounted, ref } from "vue";
 const props = defineProps(["sessionsList", "timeProvided"]);
+var sessionsList2 = ref({});
+onMounted(() => {
+  props.sessionsList.map((item) => {
+    var containsNewlinesTopic = item.topic.includes("\n");
+    var containsNewlinesSpeaker = item.speaker.includes("\n");
+    if (containsNewlinesTopic) {
+      console.log(item);
+      item.topic = item.topic.replace(/\n/g, "<br>");
+    }
+    if (containsNewlinesSpeaker) {
+      item.speaker = item.speaker.replace(/\n/g, "<br>");
+    }
+  });
+  console.log("After", props.sessionsList);
+});
 </script>

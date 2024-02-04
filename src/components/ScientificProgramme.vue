@@ -82,6 +82,15 @@
     <topicSpeakerListVue :sessionsList="sessionsDay3" timeProvided="false"
       >Scientific Sessions - Day III - 10.03.2024(Hall A)</topicSpeakerListVue
     >
+    <topicSpeakerListVue
+      :sessionsList="precisionOncology8thMarch"
+      timeProvided="false"
+      >Precision Oncology - 8th March 2024 - Hall B<br />Program Director - Dr
+      Sewanti Limaye, H.N Reliance Hospital, Mumbai</topicSpeakerListVue
+    ><topicSpeakerListVue :sessionsList="LearnFromExperts" timeProvided="true"
+      >Learn from the experts - Radiation Oncology<br />(09.03.2024-Hall
+      B)</topicSpeakerListVue
+    >
   </div>
 </template>
 <style scoped>
@@ -649,8 +658,7 @@ Moderator - Dr Krishna Prasad
 Panelist - Dr Joy Augustin,
 Dr Antony Thottian
 Dr. John Joseph,
-Dr. Susan Mathews
-www.oncology2024`,
+Dr. Susan Mathews`,
   },
   {
     topic: `Sarcomas - Can Molecular Markers Harness Individualized Therapy for Sarcomas?
