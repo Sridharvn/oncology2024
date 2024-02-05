@@ -74,11 +74,10 @@
 <script setup>
 import { onMounted, ref } from "vue";
 const props = defineProps(["sessionsList", "timeProvided"]);
-var sessionsList2 = ref({});
 onMounted(() => {
   props.sessionsList.map((item) => {
-    var containsNewlinesTopic = item.topic.includes("\n");
-    var containsNewlinesSpeaker = item.speaker.includes("\n");
+    const containsNewlinesTopic = item.topic.includes("\n");
+    const containsNewlinesSpeaker = item.speaker.includes("\n");
     if (containsNewlinesTopic) {
       console.log(item);
       item.topic = item.topic.replace(/\n/g, "<br>");
