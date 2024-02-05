@@ -91,6 +91,7 @@
       >Learn from the experts - Radiation Oncology<br />(09.03.2024-Hall
       B)</topicSpeakerListVue
     >
+    <PrizeWinners></PrizeWinners>
   </div>
 </template>
 <style scoped>
@@ -190,6 +191,7 @@
 </style>
 <script setup>
 import topicSpeakerListVue from "./repeatingComponents/topicSpeakerList.vue";
+import PrizeWinners from "./singleUse/PrizeWinners.vue";
 
 const dailyEventsTable = [
   {
