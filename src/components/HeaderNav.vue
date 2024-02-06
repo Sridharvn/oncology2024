@@ -2,7 +2,7 @@
   <!-- http://www.oncology2024.in/brochure-2024.pdf -->
 
   <div class="nav">
-    <div class="nav-logo">
+    <div class="nav-logo" v-if="noLogo != 'true'">
       <a href="/"> <img src="/ccrs-logo.png" alt="" class="nav-logo-img" /></a>
     </div>
     <div class="nav-links">
@@ -54,3 +54,6 @@
   @apply bg-text-primary2 rounded-md p-2;
 }
 </style>
+<script setup>
+const props = defineProps(["noLogo"]);
+</script>

@@ -75,6 +75,7 @@
         </span></span
       >
     </Banner>
+    <HeaderNav noLogo="true"></HeaderNav>
     <Banner color="six">
       <div>
         <a
@@ -146,4 +147,5 @@
 </style>
 <script lang="ts" setup>
 import Banner from "./Banner.vue";
+import HeaderNav from "./HeaderNav.vue";
 </script>
