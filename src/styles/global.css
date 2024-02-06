@@ -1,5 +1,5 @@
 :root {
-  --Gradient: linear-gradient(
+  /* --Gradient: linear-gradient(
     to right,
     #ffecca,
     #ffedcb,
@@ -13,5 +13,6 @@
     #fedeae,
     #fed9a3,
     #ffd399
-  );
+  ); */
+  --Gradient: linear-gradient(to right, #fedeeb, #fedeeb, #fedeeb);
 }
