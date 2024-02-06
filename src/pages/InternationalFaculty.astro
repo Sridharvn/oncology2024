@@ -23,6 +23,7 @@ import InternationalFacultyList from "./../components/Faculty/InternationalFacul
   @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
 </style>
 <style>
+  @import "./../styles/global.css";
   * {
     font-family: "Roboto Slab", serif;
     background-color: #00ff0010;
@@ -35,21 +36,7 @@ import InternationalFacultyList from "./../components/Faculty/InternationalFacul
     /* @apply w-full; */
   }
   body {
-    background-image: linear-gradient(
-      to right,
-      #ffecca,
-      #ffedcb,
-      #ffeecd,
-      #ffeece,
-      #ffefd0,
-      #ffedcc,
-      #feebc7,
-      #fee9c3,
-      #fee4b8,
-      #fedeae,
-      #fed9a3,
-      #ffd399
-    );
+    background-image: var(--Gradient);
   }
   /* body {
     background: rgb(255, 236, 202);

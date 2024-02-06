@@ -1,0 +1,17 @@
+:root {
+  --Gradient: linear-gradient(
+    to right,
+    #ffecca,
+    #ffedcb,
+    #ffeecd,
+    #ffeece,
+    #ffefd0,
+    #ffedcc,
+    #feebc7,
+    #fee9c3,
+    #fee4b8,
+    #fedeae,
+    #fed9a3,
+    #ffd399
+  );
+}
