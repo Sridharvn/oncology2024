@@ -12,37 +12,42 @@
     <p class="m-5 text-xl">
       We are extremely happy to inform you that we are organising “Oncology
       2024” the international conference on multidisciplinary management of
-      common cancers on 8th y and 10th of March 2024 at Hotel Le Meridian Kochi.
-      The conference will be addressing to most relevant clinical situations in
-      the day to day management of cancers in every oncology unit. There will be
-      preconference scientific session on “Target Volume Delineation and
-      Treatment Planning in Radiation Oncology” on 7th March 2024 at Nayanar
-      Hall, Hotel LeMeridian, Kochi. There will be an exciting Molecular
-      Oncology scientific session on 8th March. Learn from the expert programme
-      in Medical Oncology on advancements in CART Cell therapy, Immunotherapy &
-      Targeted therapy on 9th March as breakfast session where the delegates
-      will get an opportunity to interact with renowned international and
-      national faculty. Case based interactive E contouring session on radiation
-      oncology and learn from the expert session on common clinical situation in
-      radiation oncology of relevant to India on 9th March will be giving
-      opportunity to get awareness on Modem approach to common clinical
-      problems. There will be a free paper / poster session where the
-      clinicians, scientists and students can present their papers and posters.
-      Special prizes and cash awards will be given for the best poster, best
-      paper etc. (separately for Surgical Oncology / Medical Oncology /
-      Radiation Oncology / Cancer research including genetics related topics).
+      common cancers on 8th 9th and 10th of March 2024 at Hotel Le Meridian
+      Kochi. The conference will be addressing to most relevant clinical
+      situations in the day to day management of cancers in every oncology unit.
+      There will be preconference scientific session on
+      <strong
+        >“Target Volume Delineation and Treatment Planning in Radiation
+        Oncology”</strong
+      >
+      on 7th March 2024 at Nayanar Hall, Hotel LeMeridian, Kochi. <br />There
+      will be an exciting Molecular Oncology scientific session on 8th March.
+      Learn from the expert programme in Medical Oncology on advancements in
+      CART Cell therapy, Immunotherapy & Targeted therapy on 9th March as
+      breakfast session where the delegates will get an opportunity to interact
+      with renowned international and national faculty.<br />
+      Case based interactive E contouring session on radiation oncology and
+      learn from the expert session on common clinical situation in radiation
+      oncology of relevant to India on 9th March will be giving opportunity to
+      get awareness on Modem approach to common clinical problems. <br />There
+      will be a free paper / poster session where the clinicians, scientists and
+      students can present their papers and posters. Special prizes and cash
+      awards will be given for the best poster, best paper etc. (separately for
+      Surgical Oncology / Medical Oncology / Radiation Oncology / Cancer
+      research including genetics related topics).<br />
       Oncology quiz for RG. residents in Medical Oncology, Radiation Oncology
       and Surgical Oncology will be conducted on 10th March. Interested RG.
       residents and Doctors who have passed their qualifying RG. degrees within
       one year also are eligible to appear for fellowship interview separate for
       every specialty and the same is open for Medical Oncology, Radiation
       Oncology, Surgical Oncology, Gynec Oncology and Onco Pathology / Cancer
-      research and Genetics. There will be a Career guidance sessions for young
-      Medical Oncology & Radiation Oncology PG students & Jr. Consultants on 1
-      Oth March especially giving tips for FRCR - Clinical Oncology examination
-      and jobs abroad. Kindly block the conference dates in your calender&
-      register as early as possible. Please refer to the website
-      www.oncology2024.in periodically for updated information.
+      research and Genetics.<br />
+      There will be a Career guidance sessions for young Medical Oncology &
+      Radiation Oncology PG students & Jr. Consultants on 1 Oth March especially
+      giving tips for FRCR - Clinical Oncology examination and jobs abroad.<br />
+      Kindly block the conference dates in your calender& register as early as
+      possible. Please refer to the website www.oncology2024.in periodically for
+      updated information.
     </p>
     <Banner color="secondary"
       >Pre-conference teaching programs on Clinical Molecular Oncology & Hitech
