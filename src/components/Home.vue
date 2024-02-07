@@ -70,12 +70,12 @@
 .home {
 }
 .imageWrapper {
-  @apply flex flex-col items-center gap-4;
+  @apply flex flex-col items-center gap-10;
 }
 .detailsImage {
   @apply w-2/3;
   @apply max-lg:w-[350px];
-  @apply mix-blend-normal;
+  @apply mix-blend-darken;
 }
 </style>
 <script lang="ts" setup>
