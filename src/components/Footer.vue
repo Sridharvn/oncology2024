@@ -102,13 +102,13 @@
 }
 
 .footer-elements {
-  @apply text-black font-bold text-3xl p-10 border border-4 border-text-primary rounded-xl mx-4 my-6;
-  @apply max-lg:text-2xl max-md:text-sm max-sm:text-sm;
+  @apply text-black font-bold text-2xl p-10 border border-4 border-text-primary rounded-xl mx-4 my-6;
+  @apply max-lg:text-xl max-md:text-sm max-sm:text-sm;
 }
 
 .footer-flex {
   @apply flex justify-between items-center;
-  @apply max-lg:flex-col max-lg:justify-center max-lg:items-center;
+  @apply max-xl:flex-col max-lg:justify-center max-lg:items-center;
 }
 
 .scanToPay {
