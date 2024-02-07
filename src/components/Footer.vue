@@ -36,6 +36,13 @@
         <a href="Tel:9387103803">Mob: 91 9387103803</a><br />
         <a href="mailTo:dr.csmadhu@gmail.com">dr.csmadhu@gmail.com</a>
       </div>
+
+      <div class="footer-elements">
+        Dr. Manoj S. MD, DM<br />
+        Convenor<br />
+        <a href="Tel:8078298449">Mob: 91 8078298449</a><br />
+        <a href="mailTo:manojsukumarr@gmail.com">manojsukumarr@gmail.com</a>
+      </div>
       <!-- <div class="footer-elements footer-paymentQR">
                 /../../public/PaymentQR.jpeg
                 <a href="https://feebook.southindianbank.com/FeeBookUser/org?id=670">
