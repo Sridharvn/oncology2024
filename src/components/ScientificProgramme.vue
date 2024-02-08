@@ -92,6 +92,8 @@
       B)</topicSpeakerListVue
     >
     <PrizeWinners></PrizeWinners>
+    <AbstractSubmissionDetilsVue></AbstractSubmissionDetilsVue>
+    <AbstractSubmissionInstructions></AbstractSubmissionInstructions>
   </div>
 </template>
 <style scoped>
@@ -191,7 +193,9 @@
 </style>
 <script setup>
 import topicSpeakerListVue from "./repeatingComponents/topicSpeakerList.vue";
+import AbstractSubmissionDetilsVue from "./singleUse/AbstractSubmissionDetils.vue";
 import PrizeWinners from "./singleUse/PrizeWinners.vue";
+import AbstractSubmissionInstructions from "./singleUse/AbstractSubmissionInstructions.vue";
 
 const dailyEventsTable = [
   {
