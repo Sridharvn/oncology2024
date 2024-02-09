@@ -20,31 +20,32 @@
         >“Target Volume Delineation and Treatment Planning in Radiation
         Oncology”</strong
       >
-      on 7th March 2024 at Nayanar Hall, Hotel LeMeridian, Kochi. <br />There
-      will be an exciting Molecular Oncology scientific session on 8th March.
-      Learn from the expert programme in Medical Oncology on advancements in
-      CART Cell therapy, Immunotherapy & Targeted therapy on 9th March as
-      breakfast session where the delegates will get an opportunity to interact
-      with renowned international and national faculty.<br />
+      on 7th March 2024 at Nayanar Hall, Hotel LeMeridian, Kochi.
+      <br /><br />There will be an exciting Molecular Oncology scientific
+      session on 8th March. Learn from the expert programme in Medical Oncology
+      on advancements in CART Cell therapy, Immunotherapy & Targeted therapy on
+      9th March as breakfast session where the delegates will get an opportunity
+      to interact with renowned international and national faculty.<br /><br />
       Case based interactive E contouring session on radiation oncology and
       learn from the expert session on common clinical situation in radiation
       oncology of relevant to India on 9th March will be giving opportunity to
-      get awareness on Modem approach to common clinical problems. <br />There
-      will be a free paper / poster session where the clinicians, scientists and
-      students can present their papers and posters. Special prizes and cash
-      awards will be given for the best poster, best paper etc. (separately for
-      Surgical Oncology / Medical Oncology / Radiation Oncology / Cancer
-      research including genetics related topics).<br />
+      get awareness on Modem approach to common clinical problems.
+      <br /><br />There will be a free paper / poster session where the
+      clinicians, scientists and students can present their papers and posters.
+      Special prizes and cash awards will be given for the best poster, best
+      paper etc. (separately for Surgical Oncology / Medical Oncology /
+      Radiation Oncology / Cancer research including genetics related
+      topics).<br /><br />
       Oncology quiz for RG. residents in Medical Oncology, Radiation Oncology
       and Surgical Oncology will be conducted on 10th March. Interested RG.
       residents and Doctors who have passed their qualifying RG. degrees within
       one year also are eligible to appear for fellowship interview separate for
       every specialty and the same is open for Medical Oncology, Radiation
       Oncology, Surgical Oncology, Gynec Oncology and Onco Pathology / Cancer
-      research and Genetics.<br />
+      research and Genetics.<br /><br />
       There will be a Career guidance sessions for young Medical Oncology &
       Radiation Oncology PG students & Jr. Consultants on 1 Oth March especially
-      giving tips for FRCR - Clinical Oncology examination and jobs abroad.<br />
+      giving tips for FRCR - Clinical Oncology examination and jobs abroad.<br /><br />
       Kindly block the conference dates in your calender& register as early as
       possible. Please refer to the website www.oncology2024.in periodically for
       updated information.
