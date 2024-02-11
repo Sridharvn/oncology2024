@@ -79,8 +79,9 @@
   @apply flex flex-col items-center gap-10;
 }
 .detailsImage {
-  @apply w-2/3;
-  @apply max-lg:w-[350px];
+  @apply w-2/3 bg-cover;
+  /*@apply max-lg:w-[350px];*/
+  @apply max-lg:w-full;
   @apply mix-blend-darken;
 }
 </style>
