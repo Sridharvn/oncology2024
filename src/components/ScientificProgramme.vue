@@ -102,8 +102,8 @@
       >Scientific Sessions - Day III - 10.03.2024(Hall A)</topicSpeakerListVue
     >
     <topicSpeakerListVue
-      :sessionsList="precisionOncology8thMarch"
-      timeProvided="false"
+      :sessionsList="precisionOncologyday1data"
+      timeProvided="true"
       >Precision Oncology - 8th March 2024 - Hall B<br />Program Director - Dr
       Sewanti Limaye, H.N Reliance Hospital, Mumbai</topicSpeakerListVue
     ><topicSpeakerListVue :sessionsList="LearnFromExperts" timeProvided="true"
@@ -218,6 +218,7 @@ import AbstractSubmissionInstructions from "./singleUse/AbstractSubmissionInstru
 import day2data from "./../data/day2data";
 import day3data from "./../data/day3data";
 import day1data from "./../data/day1data";
+import precisionOncologyday1data from "./../data/precisionOncologyday1data";
 
 const dailyEventsTable = [
   {
