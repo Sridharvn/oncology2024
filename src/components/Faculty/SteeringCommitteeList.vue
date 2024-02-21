@@ -29,7 +29,7 @@
       <div class="listSectionElements">
         <div
           class="listSectionItems"
-          v-for="item in SteeringCommittee"
+          v-for="item in SteeringCommittee2"
           :key="item"
         >
           {{ item }}
@@ -291,5 +291,29 @@ const SteeringCommittee = [
   "DR. Vishnu Reghu MD",
   "DR. Cyrus MD",
   "DR. Nidhi MD DM",
+];
+const SteeringCommittee2 = [
+  "Dr. Jayaprakash Madanan MD, DNB",
+  "Dr. Suresh Kumar MD, DNB",
+  "Dr. Ajayakumar MD, DNB",
+  "Dr. Sivaramakrishnan MD",
+  "Dr. Sajeev George Pulikkan MD",
+  "Dr. Priya DLO, MD",
+  "Dr. Anoop T. M. MD, DM",
+  "Dr. Angela Eapen MD",
+  "Dr. Nikhil Haridas MD, DrNB",
+  "Dr. Vijayasree T. N. MD",
+  "Dr. Arunlal MD",
+  "Dr. Jose Paul MD, FRCP",
+  "Dr. Cessel Tomas Kainikkal MD, DNB",
+  "Dr. Beela Sara Mathew MD",
+  "Dr. Sreejith Nair DNB, DM",
+  "Dr. Francis V James MD",
+  "Dr. Jose Tom MD",
+  "Dr. Jacob Kurian MD",
+  "Dr. Jojo V. Joseph MS, Mch",
+  "Dr. Johny Joseph MD, DRM, DNB",
+  "Dr. Prema DNB, DMRT",
+  "Dr. Nithin MD",
 ];
 </script>
