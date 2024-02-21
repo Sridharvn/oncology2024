@@ -73,13 +73,32 @@
         </tr>
       </table>
     </div>
-    <topicSpeakerListVue :sessionsList="sessionsDay1" timeProvided="false"
+
+    <!-- <topicSpeakerListVue :sessionsList="sessionsDay1" timeProvided="false"
       >Scientific Sessions - Day I - 08.03.2024(Hall A)</topicSpeakerListVue
     >
     <topicSpeakerListVue :sessionsList="sessionsDay2" timeProvided="false"
       >Scientific Sessions - Day II - 09.03.2024(Hall A)</topicSpeakerListVue
     >
     <topicSpeakerListVue :sessionsList="sessionsDay3" timeProvided="false"
+      >Scientific Sessions - Day III - 10.03.2024(Hall A)</topicSpeakerListVue
+    >
+    <topicSpeakerListVue
+      :sessionsList="precisionOncology8thMarch"
+      timeProvided="false"
+      >Precision Oncology - 8th March 2024 - Hall B<br />Program Director - Dr
+      Sewanti Limaye, H.N Reliance Hospital, Mumbai</topicSpeakerListVue
+    ><topicSpeakerListVue :sessionsList="LearnFromExperts" timeProvided="true"
+      >Learn from the experts - Radiation Oncology<br />(09.03.2024-Hall
+      B)</topicSpeakerListVue
+    > -->
+    <topicSpeakerListVue :sessionsList="day1data" timeProvided="true"
+      >Scientific Sessions - Day I - 08.03.2024(Hall A)</topicSpeakerListVue
+    >
+    <topicSpeakerListVue :sessionsList="day2data" timeProvided="true"
+      >Scientific Sessions - Day II - 09.03.2024(Hall A)</topicSpeakerListVue
+    >
+    <topicSpeakerListVue :sessionsList="day3data" timeProvided="true"
       >Scientific Sessions - Day III - 10.03.2024(Hall A)</topicSpeakerListVue
     >
     <topicSpeakerListVue
@@ -196,6 +215,9 @@ import topicSpeakerListVue from "./repeatingComponents/topicSpeakerList.vue";
 import AbstractSubmissionDetilsVue from "./singleUse/AbstractSubmissionDetils.vue";
 import PrizeWinners from "./singleUse/PrizeWinners.vue";
 import AbstractSubmissionInstructions from "./singleUse/AbstractSubmissionInstructions.vue";
+import day2data from "./../data/day2data";
+import day3data from "./../data/day3data";
+import day1data from "./../data/day1data";
 
 const dailyEventsTable = [
   {
@@ -787,8 +809,8 @@ const LearnFromExperts = [
     speaker: "Dr. Vimoj Nair",
   },
   {
-    time: "11.45-12.15 SBRT of Lung cancer Dr. Ziad Thotathil  ",
-    topic: "",
+    time: "11.45-12.15   ",
+    topic: "SBRT of Lung cancer Dr. Ziad Thotathil",
     speaker: "",
   },
   {
