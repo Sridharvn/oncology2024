@@ -25,6 +25,18 @@
       </div>
     </div> -->
     <div class="listSectionWrapper">
+      <div class="listSectionHeading">Organising Committee</div>
+      <div class="listSectionElements">
+        <div
+          class="listSectionItems"
+          v-for="item in organisingCommittee"
+          :key="item"
+        >
+          {{ item }}
+        </div>
+      </div>
+    </div>
+    <div class="listSectionWrapper">
       <div class="listSectionHeading">Steering Committee</div>
       <div class="listSectionElements">
         <div
@@ -293,6 +305,7 @@ const SteeringCommittee = [
   "DR. Nidhi MD DM",
 ];
 const SteeringCommittee2 = [
+  "Dr. Pavithran MD, DM, FRCP",
   "Dr. Jayaprakash Madanan MD, DNB",
   "Dr. Suresh Kumar MD, DNB",
   "Dr. Ajayakumar MD, DNB",
@@ -315,5 +328,24 @@ const SteeringCommittee2 = [
   "Dr. Johny Joseph MD, DRM, DNB",
   "Dr. Prema DNB, DMRT",
   "Dr. Nithin MD",
+];
+
+const organisingCommittee = [
+  "Prof. Dr. C. S. Madhu MD, DNB",
+  "Dr. Unni S. Pillai MD, DM",
+  "Dr. Marioj S. MD, DM",
+  "Dr. Gayathri J. Prakash MD, DNB",
+  "Dr. Sanjay Mukundan MD",
+  "Dr. Sabarinath P S MD",
+  "Dr. Adithya MBBS",
+  "Dr Jose Paul MD FRCR",
+  "Dr Arunlal MD",
+  "Dr Nithin Raj MD",
+  "Dr. Angela Eapen MD",
+  "Dr. Meenu Jose MD",
+  "Dr. Diana Sevi Jose MD",
+  "Mr. Jithin MSc, DRT",
+  "Mr. Abey Thomas BA (HM)",
+  "Mr. Roshan Joseph B.Com ",
 ];
 </script>
