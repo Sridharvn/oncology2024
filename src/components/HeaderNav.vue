@@ -7,7 +7,7 @@
     </div>
     <div class="nav-links">
       <div class="nav-items">
-        <a href="/">Home Page</a>
+        <a href="/">Home</a>
       </div>
       <div class="nav-items">
         <a href="/InternationalFaculty">International Faculty</a>
@@ -16,7 +16,7 @@
         <a href="/NationalFaculty">National Faculty</a>
       </div>
       <div class="nav-items">
-        <a href="/SteeringCommittee">Steering Committee</a>
+        <a href="/SteeringCommittee">Committee</a>
       </div>
       <div class="nav-items">
         <a href=" http://www.oncology2024.in/brochure-2024.pdf" target="_blank"
