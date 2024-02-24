@@ -74,6 +74,14 @@
       </table>
     </div>
 
+    <Banner color="five" style="margin-block: 50px"
+      >Medical oncology Breakfast session on 9th and 10th at 7 AM.<br />
+      Limited to 25 on a first come first serve basis Those interested may
+      contact Mr. Abey Thomas (9447073203) / Mr. Ajai Johny (9496348732) and
+      give their names on or before 01/03/24 and you will be intimated
+      accordingly.
+    </Banner>
+
     <!-- <topicSpeakerListVue :sessionsList="sessionsDay1" timeProvided="false"
       >Scientific Sessions - Day I - 08.03.2024(Hall A)</topicSpeakerListVue
     >
@@ -92,23 +100,38 @@
       >Learn from the experts - Radiation Oncology<br />(09.03.2024-Hall
       B)</topicSpeakerListVue
     > -->
+
     <topicSpeakerListVue :sessionsList="day1data" timeProvided="true"
-      >Scientific Sessions - Day I - 08.03.2024(Hall A)</topicSpeakerListVue
-    >
+      >Scientific Sessions - Day I - 08.03.2024 (Hall A)
+    </topicSpeakerListVue>
+    <Banner color="five" style="margin-block: 50px"
+      >Medical oncology Breakfast session on 9th and 10th at 7 AM.<br />
+      Limited to 25 on a first come first serve basis Those interested may
+      contact Mr. Abey Thomas (9447073203) / Mr. Ajai Johny (9496348732) and
+      give their names on or before 01/03/24 and you will be intimated
+      accordingly.
+    </Banner>
+
     <topicSpeakerListVue :sessionsList="day2data" timeProvided="true"
-      >Scientific Sessions - Day II - 09.03.2024(Hall A)</topicSpeakerListVue
-    >
+      >Scientific Sessions - Day II - 09.03.2024 (Hall A)
+    </topicSpeakerListVue>
     <topicSpeakerListVue :sessionsList="day3data" timeProvided="true"
-      >Scientific Sessions - Day III - 10.03.2024(Hall A)</topicSpeakerListVue
-    >
+      >Scientific Sessions - Day III - 10.03.2024 (Hall A)
+    </topicSpeakerListVue>
     <topicSpeakerListVue
       :sessionsList="precisionOncologyday1data"
       timeProvided="true"
       >Precision Oncology - 8th March 2024 - Hall B<br />Program Director - Dr
       Sewanti Limaye, H.N Reliance Hospital, Mumbai</topicSpeakerListVue
-    ><topicSpeakerListVue :sessionsList="LearnFromExperts" timeProvided="true"
+    >
+    <topicSpeakerListVue :sessionsList="learnFromExperts" timeProvided="true"
       >Learn from the experts - Radiation Oncology<br />(09.03.2024-Hall
       B)</topicSpeakerListVue
+    >
+    <topicSpeakerListVue
+      :sessionsList="scientificSessionDay2"
+      timeProvided="true"
+      >Scientific Session Day II</topicSpeakerListVue
     >
     <PrizeWinners></PrizeWinners>
     <AbstractSubmissionDetilsVue></AbstractSubmissionDetilsVue>
@@ -119,21 +142,26 @@
 * {
   /* @apply border-red border; */
 }
+
 @media (max-width: 1275px) {
   .mainTimeTable tr {
     @apply h-40;
   }
 }
+
 .mainTimeTable tr {
   @apply xl:h-40 2xl:h-20 max-lg:h-52 max-md:h-60 max-sm:h-72;
 }
+
 .mainTimeTable {
   @apply lg:p-4 lg:m-3 lg:mx-7 my-1;
 }
+
 .mainTimeTableColumn {
   @apply border-text-primary border-2 h-auto p-0 m-0 h-full;
   @apply max-sm:text-xs;
 }
+
 .mainTimeTableColumn:not(:first-child) {
   @apply w-1/3;
 }
@@ -141,6 +169,7 @@
 .mainTimeTableRow {
   @apply border-t-2 border-text-primary text-center;
 }
+
 .mainTimeTableHall {
   @apply text-white text-2xl h-1/2 bg-text-primary flex items-center justify-center;
   @apply max-sm:text-sm h-10;
@@ -151,12 +180,15 @@
 .mainTimeTableRowInColumnRest:first-child {
   @apply border-b-2 w-full border-text-primary;
 }
+
 .mainTimeTableRowInColumnRest {
   @apply w-full flex flex-col justify-center items-center;
   @apply max-sm:text-sm;
 }
+
 .mainTimeTableWrapper {
 }
+
 .mainTimeTableDate {
   @apply text-4xl text-white bg-pink aspect-square border-2 border-pink w-4;
   @apply max-sm:text-sm;
@@ -166,15 +198,19 @@
 * {
   /* border: 1px solid red; */
 }
+
 .dayWrapper {
   @apply border border-text-primary rounded-lg m-2 border-4;
 }
+
 .heading {
   @apply text-text-primary text-3xl px-4 pt-4 text-center;
 }
+
 .underHeading {
   @apply text-text-primary text-sm pt-1 px-4 pb-4 italic text-center border-b-2;
 }
+
 .listHeading {
   /* display: grid;
   grid-template-columns: repeat(2, 1fr); */
@@ -184,9 +220,11 @@
   /* margin-left: 180px; */
   /* padding-block: 10px; */
 }
+
 .listHeadingItem {
-  @apply text-text-primary text-3xl  underline text-left px-4;
+  @apply text-text-primary text-3xl underline text-left px-4;
 }
+
 .listItems {
   /* display: grid;
   grid-template-columns: repeat(2, 1fr); */
@@ -196,12 +234,15 @@
   /* margin-left: 10%; */
   /* padding-block: 10px; */
 }
+
 .listItemsItem {
   text-align: left;
   @apply text-text-primary text-base py-2 px-4;
 }
+
 .listItemsWrapper {
 }
+
 .listWrapper {
   @apply max-w-6xl;
 }
@@ -219,6 +260,9 @@ import day2data from "./../data/day2data";
 import day3data from "./../data/day3data";
 import day1data from "./../data/day1data";
 import precisionOncologyday1data from "./../data/precisionOncologyday1data";
+import learnFromExperts from "./../data/learnFromExperts";
+import scientificSessionDay2 from "./../data/scientificSessionDay2";
+import Banner from "./Banner.vue";
 
 const dailyEventsTable = [
   {
