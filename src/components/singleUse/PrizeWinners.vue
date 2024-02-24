@@ -31,19 +31,21 @@
     <h1 class="subHeading">Radiation Oncology</h1>
     <ol class="list">
       <li class="listItem">
-        Kilitoli Chophy, Government Medical College, Kottayam
+        Dr. Kilitoli Chophy, Government Medical College, Kottayam
       </li>
       <li class="listItem">
-        Saranya Sasikala, Malabar Cancer Centre, Thalassery
+        Dr. Saranya Sasikala, Malabar Cancer Centre, Thalassery
       </li>
       <li class="listItem">
-        Parth Verma, Amrita Institute of Medical Sciences, Cochin
+        Dr. Parth Verma, Amrita Institute of Medical Sciences, Cochin
       </li>
     </ol>
     <h1 class="subHeading">Medical Oncology</h1>
     <ol class="list">
-      <li class="listItem">Jiss Joy, Madras Medical College, Chennai</li>
-      <li class="listItem">Gayatri Nair, Madras Medical College, Chennai</li>
+      <li class="listItem">Dr. Jiss Joy, Madras Medical College, Chennai</li>
+      <li class="listItem">
+        Dr. Gayatri Nair, Madras Medical College, Chennai
+      </li>
     </ol>
     <br />
 
