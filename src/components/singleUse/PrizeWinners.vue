@@ -96,10 +96,12 @@
   @apply text-base text-text-primary3;
 }
 .heading {
-  @apply text-4xl text-center text-text-primary;
+  @apply text-4xl text-center text-text-primary font-bold;
+  @apply max-sm:text-xl;
 }
 .list {
   @apply text-justify text-text-primary3;
+  @apply max-sm:text-xs;
 }
 .listItem {
   @apply list-item;

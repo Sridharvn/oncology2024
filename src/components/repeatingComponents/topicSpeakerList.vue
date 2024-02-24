@@ -47,6 +47,7 @@
 }
 .listHeadingItem {
   @apply text-text-primary text-3xl  underline text-left px-4;
+  @apply max-sm:px-2 max-sm:text-lg;
 }
 .listItems {
   /* display: grid;
@@ -60,6 +61,7 @@
 .listItemsItem {
   text-align: left;
   @apply text-text-primary text-base py-2 px-4;
+  @apply max-sm:text-xs max-sm:px-2;
 }
 .listItemsWrapper {
 }
