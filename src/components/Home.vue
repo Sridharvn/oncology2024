@@ -67,6 +67,18 @@
     <Banner color="four">Registration Details</Banner>
     <div class="imageWrapper">
       <img src="/RegistrationDetails.png" class="detailsImage" />
+      <Banner color="six"
+        >Note: Registration for the Conference is mandatory for attending the
+        pre-conference workshops. Please inform your participation now itself as
+        the seats are limited. Subsidised accommodation can be arranged for PGs
+        & Residents on request. Contact Mr.Abey - 9447073203 Email:
+        oncology2024india@gmail.com Kindly inform us the date of your arrival
+        and departure (Flight/Train etc) in advance. (Please fill in the
+        fellowship application in the prescribed format which is attached
+        separately).<br /><br />
+        Bank Account Details : Cancer Control and Research Society A/c No.
+        0930073000000064 The South Indian Bank IFSC : SIBL0000930
+      </Banner>
       <img src="/HotelsNear.png" class="detailsImage" />
     </div>
     <Footer></Footer>
