@@ -5,6 +5,16 @@ const day1data = [
     speaker: "",
   },
   {
+    time: "8.00 - 8.20",
+    topic: "Role of immunotherapy in IL unresectable HCC",
+    speaker: "Dr. Arun Warrrier MD,MRCP,DM,FRCP",
+  },
+  {
+    time: "7.00 - 8.00",
+    topic: "Registration",
+    speaker: "",
+  },
+  {
     time: "8.00 - 8.25",
     topic:
       "Can Hyperthermia be integrated in the management of locally advanced cancers?",
@@ -26,11 +36,11 @@ const day1data = [
     topic: "Precision Oncology in pancreatic Carcinoma",
     speaker: "Prof.Dr.Ben George MD,FACP",
   },
-  {
-    time: "9.45 - 10.10",
-    topic: "Radiotherapy in Oligo Metastatic disease in Lung",
-    speaker: "Prof.Dr. J.P Agarwal MD",
-  },
+  // {
+  //   time: "9.45 - 10.10",
+  //   topic: "Radiotherapy in Oligo Metastatic disease in Lung",
+  //   speaker: "Prof.Dr. J.P Agarwal MD",
+  // },
   {
     time: "10.15 - 10.35",
     topic:
@@ -48,10 +58,17 @@ const day1data = [
     topic: "Cell therapies in Multiple Myeloma",
     speaker: "Dr. Sabarinath Radhakrishnan MD",
   },
+
   {
     time: "12.05 - 12.25",
     topic: "Circulating tumor free DNA. Evolving clinical applications",
     speaker: "Prof.Dr. M.V Pillai MD  FACP",
+  },
+
+  {
+    time: "1.30 - 1.50",
+    topic: "Adding SBRT to immunotherapy for HCC an oppurtunity",
+    speaker: "Dr. Rahul Krishnatri MD",
   },
   {
     time: "12.25 - 1.30",
@@ -59,15 +76,15 @@ const day1data = [
     speaker: "",
   },
   {
-    time: "1.30 - 1.50",
-    topic: "Adding SBRT to immunotherapy for HCC an oppurtunity",
-    speaker: "Dr. Rahul Krishnatri MD",
+    time: "12.25 - 1.30",
+    topic: "Perioperative Radiotherapy for Pancreatic Cancer",
+    speaker: "Dr. T V Ajithkumar MD,FRCR,MRCP",
   },
-  {
-    time: "1.50 - 2.10",
-    topic: "Management of Toxicities of CART Cell therapy",
-    speaker: "Dr. Sabarinath Radhakrishnan MD",
-  },
+  // {
+  //   time: "1.50 - 2.10",
+  //   topic: "Management of Toxicities of CART Cell therapy",
+  //   speaker: "Dr. Sabarinath Radhakrishnan MD",
+  // },
   {
     time: "2.10 - 2.30",
     topic:
@@ -95,31 +112,44 @@ const day1data = [
     speaker: "Dr. Vedang Murthy MD,DNB",
   },
   {
-    time: "4.15 - 4.35",
-    topic: "Cancer microbiome - Immune axis",
-    speaker: "Dr. Deepthi Madhu  MD",
-  },
-  {
     time: "4.35 - 4.55",
     topic:
       "Proton therapy for reducing mucosal toxicity of head and neck radiotherapy",
-    speaker: "Dr Sapna Nangia MD,DMB",
+    speaker: "Dr Sapna Nangia MD,DMB",
   },
+  // {
+  //   time: "4.15 - 4.35",
+  //   topic: "Cancer microbiome - Immune axis",
+  //   speaker: "Dr. Deepthi Madhu  MD",
+  // },
+
   {
     time: "5.00 - 5.20",
     topic: "Fertility preservation in Gynaecological cancers",
     speaker: "Prof. Dr. Rema P MD",
   },
+  // {
+  //   time: "5.20 - 5.40",
+  //   topic: "Proton therapy for GI cancers",
+  //   speaker: "Dr. Rahul Krishnaty MD",
+  // },
   {
     time: "5.20 - 5.40",
-    topic: "Proton therapy for GI cancers",
-    speaker: "Dr. Rahul Krishnaty MD",
+    topic:
+      "When to skip Radiotherapy in early Breast Cancer/ omission of radiotherapy in early stage breast cancer",
+    speaker: "Dr. Kurien Joseph  FRCR,FRCP(C)",
   },
   {
     time: "5.40 - 6.00",
     topic:
       "Antibiotic Resistance Breakers in Immunocompromised Patients: Evidence & Experience through Real Time Data",
     speaker: "Dr. Sudeep V MD, DM",
+  },
+  {
+    time: "5.40 - 6.00",
+    topic:
+      "Lighting new hope in ES- SCLC with 5 year reported survival outcomes",
+    speaker: "Dr. Abdul Shahid MD,DM",
   },
   {
     time: "6.30 - 7.00",

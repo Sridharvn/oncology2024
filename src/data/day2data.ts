@@ -4,11 +4,21 @@ const day2data = [
     topic: "Optimising radiotherapy in penile cancer",
     speaker: `Prof.Dr. Vedang Murthy MD`,
   },
+  // {
+  //   time: "8.20 - 8.45",
+  //   topic:
+  //     "When to skip Radiotherapy in early Breast Cancer/ omission of radiotherapy in early stage breast cancer",
+  //   speaker: `Dr. Kurien Joseph  FRCR,FRCP(C)`,
+  // },
   {
-    time: "8.20 - 8.45",
-    topic:
-      "When to skin Radiotherapy in early Breast Cancer/ omission of radiotherapy in early stage breast cancer",
-    speaker: `Dr. Kurien Joseph  FRCR,FRCP(C)`,
+    time: "5.20 - 5.40",
+    topic: "Proton therapy for GI cancers",
+    speaker: "Dr. Rahul Krishnaty MD",
+  },
+  {
+    time: "1.50 - 2.10",
+    topic: "Management of Toxicities of CART Cell therapy",
+    speaker: "Dr. Sabarinath Radhakrishnan MD",
   },
   {
     time: "8.45 - 9.05",
