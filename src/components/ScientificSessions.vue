@@ -1,5 +1,6 @@
 <template>
   <div class="scientificSection-wrapper">
+    
     <div
       class="scientificSection"
       v-for="session in sessions"

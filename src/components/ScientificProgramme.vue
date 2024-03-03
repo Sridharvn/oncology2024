@@ -81,7 +81,31 @@
       give their names on or before 01/03/24 and you will be intimated
       accordingly.
     </Banner>
-
+    <!-- <div class="pdf w-full h-[100vh]">
+    <iframe src="/pdfs/Agenda-2024new.pdf" class="w-full h-full"></iframe>
+  </div> -->
+    <div>
+      <!-- <img
+      src="/pdfs/agenda2024new/Agenda-2024new_page-0001.jpg"
+      alt=""
+      v-for="pic in 12"
+      :key="pic"
+    /> -->
+      <img
+        v-for="(image, index) in getImageList()"
+        :src="`/pdfs/agenda2024new/${image}`"
+        class="detailsImage"
+        :key="index"
+        alt="Agenda Image"
+      />
+    </div>
+    <Banner color="five" style="margin-block: 50px"
+      >Medical oncology Breakfast session on 9th and 10th at 7 AM.<br />
+      Limited to 25 on a first come first serve basis Those interested may
+      contact Mr. Abey Thomas (9447073203) / Mr. Ajai Johny (9496348732) and
+      give their names on or before 01/03/24 and you will be intimated
+      accordingly.
+    </Banner>
     <!-- <topicSpeakerListVue :sessionsList="sessionsDay1" timeProvided="false"
       >Scientific Sessions - Day I - 08.03.2024(Hall A)</topicSpeakerListVue
     >
@@ -101,7 +125,7 @@
       B)</topicSpeakerListVue
     > -->
 
-    <topicSpeakerListVue :sessionsList="day1data" timeProvided="true"
+    <!-- <topicSpeakerListVue :sessionsList="day1data" timeProvided="true"
       >Scientific Sessions - Day I - 08.03.2024 (Hall A)
     </topicSpeakerListVue>
     <Banner color="five" style="margin-block: 50px"
@@ -132,7 +156,7 @@
       :sessionsList="scientificSessionDay2"
       timeProvided="true"
       >Scientific Session Day II</topicSpeakerListVue
-    >
+    > -->
     <PrizeWinners></PrizeWinners>
     <AbstractSubmissionDetilsVue></AbstractSubmissionDetilsVue>
     <AbstractSubmissionInstructions></AbstractSubmissionInstructions>
@@ -195,6 +219,13 @@
 }
 </style>
 <style scoped>
+.detailsImage {
+  @apply bg-cover;
+  /* @apply bg-cover border border-bgPink border-4; */
+  /*@apply max-lg:w-[350px];*/
+  @apply max-lg:w-full;
+  @apply mix-blend-darken;
+}
 * {
   /* border: 1px solid red; */
 }
@@ -895,4 +926,12 @@ Dr. Kurian Joseph FRCR, FRCP`,
   //   speaker: "",
   // },
 ];
+function getImageList() {
+  const imageList = [];
+  for (let i = 1; i <= 12; i++) {
+    const imageName = `Agenda-2024new_page-${String(i).padStart(4, "0")}.jpg`;
+    imageList.push(imageName);
+  }
+  return imageList;
+}
 </script>
