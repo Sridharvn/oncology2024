@@ -1,0 +1,64 @@
+---
+import HeaderNav from "../components/HeaderNav.vue";
+import Footer from "../components/Footer.vue";
+import Gallery from "./../components/Gallery.vue";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Event Gallery</title>
+  </head>
+  <body>
+    <!-- <h1>Astro</h1> -->
+    <HeaderNav />
+    <Gallery client:load class="home" />
+    <Footer />
+  </body>
+</html>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+</style>
+<style>
+  @import "./../styles/global.css";
+  * {
+    font-family: "Roboto Slab", serif;
+    background-color: #fcf0f5;
+    /* background-color: #00ff0010; */
+    /* outline: 1px solid #00ff00 !important; */
+  }
+  /* h1 {
+    background: red;
+  } */
+  .home {
+    /* @apply w-full; */
+  }
+  body {
+    background-image: var(--Gradient);
+  }
+  /* body {
+    background: rgb(255, 236, 202);
+    background: -moz-linear-gradient(
+      90deg,
+      rgba(255, 236, 202, 1) 0%,
+      rgba(255, 240, 210, 1) 35%,
+      rgba(255, 211, 153, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+      90deg,
+      rgba(255, 236, 202, 1) 0%,
+      rgba(255, 240, 210, 1) 35%,
+      rgba(255, 211, 153, 1) 100%
+    );
+    background: linear-gradient(
+      90deg,
+      rgba(255, 236, 202, 1) 0%,
+      rgba(255, 240, 210, 1) 35%,
+      rgba(255, 211, 153, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffecca",endColorstr="#ffd399",GradientType=1);
+  } */
+</style>
