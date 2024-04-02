@@ -31,6 +31,13 @@
           >Scientific Programmes</a
         > -->
       </div>
+      <div class="nav-items">
+        <a
+          href="https://drive.google.com/drive/folders/1Sh1KsRoX1ZsQl56T5RURZ_DkGWSS3NWU?usp=drive_link"
+          target="_blank"
+          >Gallery</a
+        >
+      </div>
     </div>
   </div>
 </template>
