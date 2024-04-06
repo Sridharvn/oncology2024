@@ -50,6 +50,9 @@
       possible. Please refer to the website www.oncology2024.in periodically for
       updated information.
     </p>
+    <a href="/Gallery" class="w-full flex justify-center pb-5">
+      <img src="/eventGallery.jpg" class="w-1/2 h-min rounded-xl" />
+    </a>
     <Banner color="secondary"
       >Pre-conference teaching programs on Clinical Molecular Oncology & Hitech
       Precision Radiation Oncology on 7th March 2024</Banner

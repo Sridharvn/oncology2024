@@ -15,7 +15,7 @@
       <div class="galleryImages">
         <div
           class="galleryImage"
-          v-for="(image, index2) in item.images.slice(0, 10)"
+          v-for="(image, index2) in item.images.slice(0, 15)"
           :key="index2"
         >
           <img
