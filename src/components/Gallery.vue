@@ -12,7 +12,7 @@
       <div class="galleryImages">
         <div
           class="galleryImage"
-          v-for="(image, index2) in item.images"
+          v-for="(image, index2) in item.images.slice(0, 10)"
           :key="index2"
         >
           <img
@@ -36,20 +36,21 @@ function getImage<String>(gDriveUrl: string) {
 </script>
 <style scoped>
 .galleryButton {
-  @apply p-2 bg-text-primary2  text-white m-3 w-44 text-center rounded-lg transition-all;
+  @apply p-2 bg-text-primary2  text-white m-3 w-44 text-center rounded-lg transition-all mt-12;
   @apply hover:bg-text-primary;
 }
 .galleryDayWrapper {
+  @apply flex flex-col justify-center items-center;
 }
 .galleryImage {
 }
 .galleryImages {
-  @apply flex flex-wrap gap-3 justify-center;
+  @apply flex flex-wrap gap-5 justify-center items-center;
 }
 .galleryImageItem {
   @apply h-72 w-96;
 }
 .galleryWrapper {
-  @apply flex justify-center flex-col items-center;
+  @apply flex justify-center flex-col items-center rounded-md shadow-xl gap-12;
 }
 </style>
