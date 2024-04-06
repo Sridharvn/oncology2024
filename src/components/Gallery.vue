@@ -15,35 +15,14 @@
           v-for="(image, index2) in item.images"
           :key="index2"
         >
-          image
+          <img :src="image" />
         </div>
       </div>
     </div>
   </div>
 </template>
 <script lang="ts" setup>
-const imageDirectory = [
-  {
-    day: "Day 1",
-    link: "https://drive.google.com/drive/folders/12l5PElrTJpfqva3DS8xL96Wa3S-CK_gZ",
-    images: [],
-  },
-  {
-    day: "Day 2",
-    link: "https://drive.google.com/drive/folders/1Ko4upCSYmJXSOTiynlCRugGzbhMG7dnW",
-    images: [],
-  },
-  {
-    day: "Day 3",
-    link: "https://drive.google.com/drive/folders/15mwgyQ5Li7WWPt4fOrgg4rC5zul1e9uX",
-    images: [],
-  },
-  {
-    day: "Day 4",
-    link: "https://drive.google.com/drive/folders/1B-F8KB1LupbbYhpfAlxyIGfhoF25pljG",
-    images: [],
-  },
-];
+import imageDirectory from "../data/eventGallery";
 </script>
 <style scoped>
 .galleryButton {
