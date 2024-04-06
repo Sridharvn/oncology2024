@@ -1,6 +1,6 @@
 const imageDirectory = [
   {
-    day: "Day 1",
+    day: "More photos of Day 1",
     link: "https://drive.google.com/drive/folders/12l5PElrTJpfqva3DS8xL96Wa3S-CK_gZ",
     images: [
       "https://drive.google.com/file/d/13D9tQFshQN3feobh1gDXxhyX9c7mRtze/view?usp=drive_link",
@@ -120,7 +120,7 @@ const imageDirectory = [
     ],
   },
   {
-    day: "Day 2",
+    day: "More photos of Day 2",
     link: "https://drive.google.com/drive/folders/1Ko4upCSYmJXSOTiynlCRugGzbhMG7dnW",
     images: [
       "https://drive.google.com/file/d/1-KWd91dpwGIXkvB-684kSHcyAf-A5slB/view?usp=drive_link",
@@ -401,7 +401,7 @@ const imageDirectory = [
     ],
   },
   {
-    day: "Day 3",
+    day: "More photos of Day 3",
     link: "https://drive.google.com/drive/folders/15mwgyQ5Li7WWPt4fOrgg4rC5zul1e9uX",
     images: [
       "https://drive.google.com/file/d/1-Jn2b0RQVq6cAeP4xF5t8Rl_Yshf68hr/view?usp=drive_link",
@@ -824,7 +824,7 @@ const imageDirectory = [
     ],
   },
   {
-    day: "Day 4",
+    day: "More photos of Day 4",
     link: "https://drive.google.com/drive/folders/1B-F8KB1LupbbYhpfAlxyIGfhoF25pljG",
     images: [
       "https://drive.google.com/file/d/1yhMAGH71E9IYIuqQOhFBmuXPVqM3Nhvn/view?usp=drive_link",

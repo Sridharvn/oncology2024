@@ -1,5 +1,8 @@
 <template>
   <!-- https://drive.google.com/drive/folders/1Sh1KsRoX1ZsQl56T5RURZ_DkGWSS3NWU?usp=drive_link -->
+  <br />
+  <Banner color="tertiary">Event Gallery</Banner>
+  <br />
   <div class="galleryWrapper">
     <div
       class="galleryDayWrapper"
@@ -27,6 +30,7 @@
 </template>
 <script lang="ts" setup>
 import imageDirectory from "../data/eventGallery";
+import Banner from "./Banner.vue";
 function getImage<String>(gDriveUrl: string) {
   let fileId = gDriveUrl.split("/")[5]; // Extracts the file ID from the URL
   return `https://drive.google.com/thumbnail?export=view&id=${fileId}`;
@@ -36,11 +40,11 @@ function getImage<String>(gDriveUrl: string) {
 </script>
 <style scoped>
 .galleryButton {
-  @apply p-2 bg-text-primary2  text-white m-3 w-44 text-center rounded-lg transition-all mt-12;
+  @apply p-2 bg-text-primary2  text-white m-3 w-56 text-center rounded-lg transition-all mb-12 mt-6 font-bold text-xl;
   @apply hover:bg-text-primary;
 }
 .galleryDayWrapper {
-  @apply flex flex-col justify-center items-center;
+  @apply flex flex-col-reverse justify-center items-center;
 }
 .galleryImage {
 }
