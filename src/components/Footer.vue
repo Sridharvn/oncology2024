@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <div class="footer-flex">
+    <div class="footer-flex" v-if="false">
       <div class="footer-elements footer-paymentQR">
         <div class="scanToPay QRheading">Payment</div>
         <a href="https://feebook.southindianbank.com/FeeBookUser/org?id=670">
