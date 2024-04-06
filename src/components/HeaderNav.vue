@@ -54,7 +54,8 @@
   @apply max-sm:flex max-sm:text-xs max-sm:gap-2 max-sm:justify-center max-sm:flex-wrap;
 }
 .nav-items {
-  @apply bg-text-primary2 rounded-md p-2;
+  @apply bg-text-primary2 rounded-md p-2 transition-all;
+  @apply hover:bg-opacity-50;
 }
 </style>
 <script setup>
