@@ -15,7 +15,11 @@
           v-for="(image, index2) in item.images"
           :key="index2"
         >
-          <img :src="image" />
+          <img
+            :src="getImage(image)"
+            :alt="getImage(image)"
+            class="galleryImageItem"
+          />
         </div>
       </div>
     </div>
@@ -23,6 +27,12 @@
 </template>
 <script lang="ts" setup>
 import imageDirectory from "../data/eventGallery";
+function getImage<String>(gDriveUrl: string) {
+  let fileId = gDriveUrl.split("/")[5]; // Extracts the file ID from the URL
+  return `https://drive.google.com/thumbnail?export=view&id=${fileId}`;
+
+  //   return `https://drive.usercontent.google.com/download?id=${fileId}&export=view&authuser=0`;
+}
 </script>
 <style scoped>
 .galleryButton {
@@ -34,6 +44,10 @@ import imageDirectory from "../data/eventGallery";
 .galleryImage {
 }
 .galleryImages {
+  @apply flex flex-wrap gap-3 justify-center;
+}
+.galleryImageItem {
+  @apply h-72 w-96;
 }
 .galleryWrapper {
   @apply flex justify-center flex-col items-center;
