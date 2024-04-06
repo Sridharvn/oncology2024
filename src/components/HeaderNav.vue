@@ -10,6 +10,9 @@
         <a href="/">Home</a>
       </div>
       <div class="nav-items">
+        <a href="/Gallery">Event Gallery</a>
+      </div>
+      <div class="nav-items">
         <a href="/InternationalFaculty">International Faculty</a>
       </div>
       <div class="nav-items">
@@ -30,9 +33,6 @@
           target="_blank"
           >Scientific Programmes</a
         > -->
-      </div>
-      <div class="nav-items">
-        <a href="/Gallery">Gallery</a>
       </div>
     </div>
   </div>
