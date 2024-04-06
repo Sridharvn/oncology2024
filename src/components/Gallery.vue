@@ -46,15 +46,17 @@ function getImage<String>(gDriveUrl: string) {
 .galleryDayWrapper {
   @apply flex flex-col-reverse justify-center items-center;
 }
-.galleryImage {
+.galleryImage img {
+  @apply rounded-xl;
 }
 .galleryImages {
   @apply flex flex-wrap gap-5 justify-center items-center;
 }
 .galleryImageItem {
-  @apply h-72 w-96;
+  @apply h-64 w-96;
+  @apply max-sm:h-[230px] max-sm:w-[340px];
 }
 .galleryWrapper {
-  @apply flex justify-center flex-col items-center rounded-md shadow-xl gap-12;
+  @apply flex justify-center flex-col items-center  shadow-xl gap-12;
 }
 </style>
